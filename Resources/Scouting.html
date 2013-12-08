@@ -5,41 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../custom.css" rel="stylesheet">
     <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/bootstrap-theme.min.css" rel="stylesheet">
   </head>
   <body>
-    <div class="navbar-wrapper">
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
-        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="http://www.mishastechcorner.org/2823/index.html">Team 2823</a>
-          </div>
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-              <li><a href="http://www.mishastechcorner.org/2823/index.html">Home</a></li>
-              <li><a href="http://www.mishastechcorner.org/2823/FIRST.html">FIRST</a></li>
-              <li><a href="http://www.mishastechcorner.org/2823/news">News</a></li>
-              <li><a href="http://www.mishastechcorner.org/2823/Team.html">Team</a></li>
-              <li><a href="http://www.mishastechcorner.org/2823/Sponsors.html">Sponsors</a></li>
-              <li class="dropdown active">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Team 2823</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../FIRST.html">FIRST</a></li>
+              <li><a href="../news">News</a></li>
+              <li><a href="../Team.html">Team</a></li>
+              <li><a href="../Sponsors.html">Sponsors</a></li>
+              <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                  <li><a href="http://www.mishastechcorner.org/2823/Resources/Programming.html">Programming</a></li>
-                  <li><a href="http://www.mishastechcorner.org/2823/Resources/Business.html">Business</a></li>
-                  <li><a href="http://www.mishastechcorner.org/2823/Resources/CAD.html">CAD</a></li>
-                  <li><a href="http://www.mishastechcorner.org/2823/Resources/Building.html">Building</a></li>
+                  <li><a href="../Resources/Programming.html">Programming</a></li>
+                  <li><a href="../Resources/Business.html">Business</a></li>
+                  <li><a href="../Resources/CAD.html">CAD</a></li>
+                  <li><a href="../Resources/Building.html">Building</a></li>
                   <li class="active"><a href="#">Scouting</a></li>
                   <li class="divider"></li>
-                  <li><a href="http://www.mishastechcorner.org/2823/Resources/Other.html">For Other Teams</a></li>
+                  <li><a href="../Resources/Other.html">For Other Teams</a></li>
                 </ul>
               </li>
-              <li><a href="http://www.mishastechcorner.org/2823/Photos.html">Photos</a></li>
-              <li><a href="http://www.mishastechcorner.org/2823/Contact.html">Contact</a></li>
+              <li><a href="../Photos.html">Photos</a></li>
+              <li><a href="../Contact.html">Contact</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
               <li class="dropdown">
@@ -52,8 +52,7 @@
                 </ul>
               </li>
             </ul>
-          </div>
-        </div>
+        </div><!--/.nav-collapse -->
       </div>
     </div>
     <p class="navbar-padding"></p>
@@ -64,11 +63,31 @@
       </div>
     </div>
       <hr>
-<div id="footer">
+<div class="container">
+      <div class="row text-center">
+          <div class="col-md-3">
+              <a href="https://www.facebook.com/pages/The-Automatons/504175326325495"><img src="../social/facebook500.png" width="100" height="100"></a>
+              </div>
+          <div class="col-md-3">
+              <a href="https://plus.google.com/105457037277552965514/posts"><img src="../social/googleplus.png" width="100" height="100"></a>
+              </div>
+          <div class="col-md-3">
+              <a href="https://twitter.com/FRC2823"><img src="../social/twitter.png" width="100" height="100"></a>
+              </div>
+          <div class="col-md-3">
+              <a href="https://www.youtube.com/user/highland2823"><img src="../social/youtube.png" width="100" height="100"></a>
+              </div>
+      </div>
+      </div>
+      <div class="container">
+          <div class="row contact-footer">
+      <div id="footer">
     <div class = "container">
-      <p class="text-muted credit pull-left">&copy;The Automatons 2013</p>
+      <p class="text-muted credit text-center">&copy;The Automatons 2013</p>
     </div>
-  </div>
+        </div>
+            </div>
+    </div>
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="../js/bootstrap.js"></script>
     <script>
