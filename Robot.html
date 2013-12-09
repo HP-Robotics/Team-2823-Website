@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Team 2823 - The Robot</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png">
+    <link href="custom.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/blueimp-gallery.min.css">
+      <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46265245-1', 'highland-2823.com');
+  ga('send', 'pageview');
+
+</script>
+  </head>
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Team 2823</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="FIRST.html">FIRST</a></li>
+              <li><a href="news">News</a></li>
+              <li><a href="Team.html">Team</a></li>
+              <li><a href="Sponsors.html">Sponsors</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="Resources/Programming.html">Programming</a></li>
+                  <li><a href="Resources/Business.html">Business</a></li>
+                  <li><a href="Resources/CAD.html">CAD</a></li>
+                  <li><a href="Resources/Building.html">Building</a></li>
+                  <li><a href="Resources/Scouting.html">Scouting</a></li>
+                  <li class="divider"></li>
+                  <li><a href="Resources/Other.html">For Other Teams</a></li>
+                </ul>
+              </li>
+              <li><a href="Photos.html">Photos</a></li>
+              <li><a href="Contact.html">Contact</a></li>
+              <li class="active"><a href="#">The Robot</a></li>
+            </ul>
+            
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>The Robot</h1>
+        <p>Check out the stats about our robot!</p>
+      </div>
+    </div>
+    <div class="container">
+        <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+            <div class="slides"></div>
+            <h3 class="title"></h3>
+            <a class="prev"></a>
+            <a class="next"></a>
+            <a class="close"><span class="glyphicon glyphicon-remove"></span></a>
+            <a class="play-pause"></a>
+            <ol class="indicator"></ol>
+        </div>
+        <div id="links" class="text-center">
+            <a href="robot/robot-back.JPG">
+                <img src="robot/robot-back-th.JPG">
+            </a>
+            <a href="robot/robot-left.JPG">
+                <img src="robot/robot-left-th.JPG">
+            </a>
+            <a href="robot/robot-front.JPG">
+                <img src="robot/robot-front-th.JPG">
+            </a>
+            <a href="robot/robot-right.JPG">
+                <img src="robot/robot-right-th.JPG">
+            </a>    
+        </div>
+    </div>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      <hr>
+<div class="container">
+      <div class="row text-center">
+          <div class="col-md-3">
+              <a href="https://www.facebook.com/pages/The-Automatons/504175326325495"><img src="../social/facebook500.png" width="100" height="100"></a>
+              </div>
+          <div class="col-md-3">
+              <a href="https://plus.google.com/105457037277552965514/posts"><img src="../social/googleplus.png" width="100" height="100"></a>
+              </div>
+          <div class="col-md-3">
+              <a href="https://twitter.com/FRC2823"><img src="../social/twitter.png" width="100" height="100"></a>
+              </div>
+          <div class="col-md-3">
+              <a href="https://www.youtube.com/user/highland2823"><img src="../social/youtube.png" width="100" height="100"></a>
+              </div>
+      </div>
+      </div>
+      <div class="container">
+          <div class="row contact-footer">
+      <div id="footer">
+    <div class = "container">
+      <p class="text-muted credit text-center">&copy;The Automatons 2013</p>
+    </div>
+        </div>
+            </div>
+    </div>
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="../js/bootstrap.js"></script>
+      <script src="js/blueimp-gallery.min.js"></script>
+    <script>
+document.getElementById('links').onclick = function (event) {
+    event = event || window.event;
+    var target = event.target || event.srcElement,
+        link = target.src ? target.parentNode : target,
+        options = {index: link, event: event},
+        links = this.getElementsByTagName('a');
+    blueimp.Gallery(links, options);
+};
+</script>
+    <script>
+    $('#map').on('shown', function () {
+    google.maps.event.trigger(map, "resize");
+});
+</script>
+  </body>
+</html>
