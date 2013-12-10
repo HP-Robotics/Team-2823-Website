@@ -28,7 +28,8 @@ body {
 </script>
   </head>
   <body>
-    <div class="navbar-inverse navbar navbar-fixed-top navbar1" role="navigation">
+<header class="headroom">
+<div class="navbar-inverse navbar navbar-fixed-top navbar1" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -62,8 +63,9 @@ body {
               <li><a href="Contact.html">Contact</a></li>
             </ul>
         </div><!--/.nav-collapse -->
-      </div>
     </div>
+    </div>
+</header>
       <!--<div class="container">-->
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -107,7 +109,7 @@ body {
 
       <!-- START THE FEATURETTES -->
 
-      <div class="row featurette">
+      <div class="row featurette hidden-xs hidden-sm">
         <div class="col-md-7">
           <h2 class="featurette-heading">We have good coders. <span class="text-muted">Seriously.</span></h2>
           <p class="lead">Arguably, we have a skilled team of coders. This means two things. One, our team usually understands how a goal should be reached programmatically with different solutions. Two, we are able to train other members who wish to program, but don't know how. <i class="icon-search icon-large icon-white"></i></p>
@@ -117,7 +119,16 @@ body {
           <img class="featurette-image img-responsive" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
         </div>
       </div>
-
+       <!-- Mobile Part -->       
+    <div class="row visible-xs visible-sm text-center">
+          <h2 class="featurette-heading text-center">We have good coders. <span class="text-muted">Seriously.</span></h2>
+          <p class="lead">Arguably, we have a skilled team of coders. This means two things. One, our team usually understands how a goal should be reached programmatically with different solutions. Two, we are able to train other members who wish to program, but don't know how. <i class="icon-search icon-large icon-white"></i></p>
+            
+        </div>
+              <div class="row text-center visible-xs visible-sm">
+          <img class="text-center" data-src="holder.js/500x500/auto" alt="Generic placeholder image">
+      </div>
+<!---->
       <hr class="featurette-divider">
 
       <div class="row featurette">
@@ -169,8 +180,37 @@ body {
         </div>
             </div>
     </div>
+    <script src="https://rawgithub.com/WickyNilliams/headroom.js/gh-pages/assets/scripts/main.js"></script>
+      <script>
+(function() {
+    var header = new Headroom(document.querySelector("#header"), {
+        tolerance: 5,
+        offset : 205,
+        classes: {
+          initial: "animated",
+          pinned: "slideDown",
+          unpinned: "slideUp"
+        }
+    });
+    header.init();
+
+    var bttHeadroom = new Headroom(document.getElementById("btt"), {
+        tolerance : 0,
+        offset : 500,
+        classes : {
+            initial : "slide",
+            pinned : "slide--reset",
+            unpinned : "slide--down"
+        }
+    });
+    bttHeadroom.init();
+}());
+</script>
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/holder.js"></script>
+      <script>
+      $("header").headroom();
+          </script>
   </body>
 </html>
