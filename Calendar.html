@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Team 2823 - Photos</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Misha Prasolov and Aaron D'Sa">
     <link rel="shortcut icon" href="favicon.png">
+    <title>Team 2823 - Calendar</title>
     <link href="custom.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/blueimp-gallery.min.css">
       <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -50,143 +52,47 @@
                   <li><a href="Resources/Other.html">For Other Teams</a></li>
                 </ul>
               </li>
-              <li class="active"><a href="#">Photos</a></li>
+              <li><a href="Photos.html">Photos</a></li>
               <li><a href="Contact.html">Contact</a></li>
               <li><a href="Robot.html">The Robot</a></li>
-              <li><a href="Calendar.html">Calendar</a></li>
+              <li class="active"><a href="#">Calendar</a></li>
             </ul>
-            
         </div><!--/.nav-collapse -->
       </div>
     </div>
     <div class="container">
-      <div class="jumbotron">
-        <h1>Photos</h1>
-        <p>See pictures of robots and people, in the same page!</p>
-        <small>Hint: Click on the pictures!</small>
-      </div>
+    <div class="jumbotron">
+    <h1>Calendar</h1>
+    <p>Check out the up coming events!</p>
+    </div>
     </div>
     <div class="container">
-<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
-    <div class="slides"></div>
-    <h3 class="title"></h3>
-    <a class="prev"></a>
-    <a class="next"></a>
-    <a class="close"><span class="glyphicon glyphicon-remove"></span></a>
-    <a class="play-pause"></a>
-    <ol class="indicator"></ol>
-</div>
-<div id="links" class="text-center">
-    <a href="images/1.jpg">
-        <img src="images/thumbs/1.jpg">
-    </a>
-    <a href="images/2.jpg">
-        <img src="images/thumbs/2.jpg">
-    </a>
-    <a href="images/3.jpg">
-        <img src="images/thumbs/3.jpg">
-    </a>
-    <a href="images/4.jpg">
-        <img src="images/thumbs/4.jpg">
-    </a>
-    <a href="images/6.jpg">
-        <img src="images/thumbs/6.jpg">
-    </a>
-    <a href="images/7.jpg">
-        <img src="images/thumbs/7.jpg">
-    </a>
-    <a href="images/8.jpg">
-        <img src="images/thumbs/8.jpg">
-    </a>
-    <a href="images/9.jpg">
-        <img src="images/thumbs/9.jpg">
-    </a>
-    <a href="images/10.jpg">
-        <img src="images/thumbs/10.jpg">
-    </a>
-    <a href="images/11.jpg">
-        <img src="images/thumbs/11.jpg">
-    </a>
-    <a href="images/12.jpg">
-        <img src="images/thumbs/2.jpg">
-    </a>
-    <a href="images/13.jpg">
-        <img src="images/thumbs/13.jpg">
-    </a>
-    <a href="images/14.jpg">
-        <img src="images/thumbs/14.jpg">
-    </a>
-    <a href="images/15.jpg">
-        <img src="images/thumbs/15.jpg">
-    </a>
-    <a href="images/16.jpg">
-        <img src="images/thumbs/16.jpg">
-    </a>
-    <a href="images/17.jpg">
-        <img src="images/thumbs/17.jpg">
-    </a>
-    <a href="images/18.jpg">
-        <img src="images/thumbs/18.jpg">
-    </a>
-    <a href="images/19.jpg">
-        <img src="images/thumbs/19.jpg">
-    </a>
-    <a href="images/20.jpg">
-        <img src="images/thumbs/20.jpg">
-    </a>
-    <a href="images/21.jpg">
-        <img src="images/thumbs/21.jpg">
-    </a>
-    <a href="images/22.jpg">
-        <img src="images/thumbs/22.jpg">
-    </a>
-    <a href="images/23.jpg">
-        <img src="images/thumbs/23.jpg">
-    </a>
-    <a href="images/24.jpg">
-        <img src="images/thumbs/24.jpg">
-    </a>
-    <a href="images/25.jpg">
-        <img src="images/thumbs/25.jpg">
-    </a>
-    <a href="images/26.jpg">
-        <img src="images/thumbs/26.jpg">
-    </a>
-    <a href="images/27.jpg">
-        <img src="images/thumbs/27.jpg">
-    </a>
-    <a href="images/28.jpg">
-        <img src="images/thumbs/28.jpg">
-    </a>
-</div>
-</div>
+        <div class="row" align="center">
+            <iframe src="https://www.google.com/calendar/embed?src=j7b26ochkvm3q9ihnk61fsdmb4%40group.calendar.google.com&ctz=America/Chicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+        </div>    
+    </div>
+      
+      
+      
+      
     <hr>
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/blueimp-gallery.min.js"></script>
-    <script>
-document.getElementById('links').onclick = function (event) {
-    event = event || window.event;
-    var target = event.target || event.srcElement,
-        link = target.src ? target.parentNode : target,
-        options = {index: link, event: event},
-        links = this.getElementsByTagName('a');
-    blueimp.Gallery(links, options);
-};
-</script>
       <div class="container">
       <div class="row text-center">
           <div class="col-md-3">
+      
               <a href="https://www.facebook.com/pages/The-Automatons/504175326325495"><img src="social/facebook500.png" width="100" height="100"></a>
               </div>
           <div class="col-md-3">
+          
               <a href="https://plus.google.com/105457037277552965514/posts"><img src="social/googleplus.png" width="100" height="100"></a>
               </div>
           <div class="col-md-3">
+          
               <a href="https://twitter.com/FRC2823"><img src="social/twitter.png" width="100" height="100"></a>
               </div>
           <div class="col-md-3">
               <a href="https://www.youtube.com/user/highland2823"><img src="social/youtube.png" width="100" height="100"></a>
+          
               </div>
       </div>
       </div>
@@ -199,5 +105,9 @@ document.getElementById('links').onclick = function (event) {
         </div>
             </div>
     </div>
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/holder.js"></script>
   </body>
 </html>
