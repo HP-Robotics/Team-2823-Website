@@ -16,6 +16,7 @@ body {
     <link href="custom.css" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
       <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -28,8 +29,8 @@ body {
 </script>
   </head>
   <body>
-<header class="headroom">
-<div class="navbar-inverse navbar navbar-fixed-top navbar1" role="navigation">
+<header data-headroom data-tolerance="5" data-offset="205" data-classes='{"initial":"animated","pinned":"slideDown","unpinned":"slideUp"}'></header>
+<div class="navbar-inverse navbar navbar-fixed-top navbar1 animated slideInDown" role="navigation">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -161,6 +162,7 @@ body {
 </script>
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/headroom.js"></script>
     <script src="js/holder.js"></script>
       <script>
       $("header").headroom();
