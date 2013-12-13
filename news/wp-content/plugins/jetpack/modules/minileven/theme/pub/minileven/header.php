@@ -37,42 +37,6 @@
 						wp_nav_menu( array( 'theme_location' => 'primary', 'container_class' => '', 'menu_class' => 'nav-menu' ) );
 					endif;
 				?>
-                <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">Team 2823</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-              <li><a href="index.html"><span class="glyphicon glyphicon-home"></span>  Home</a></li>
-              <li><a href="FIRST.html"><span class="glyphicon glyphicon-globe"></span>  FIRST</a></li>
-              <li class="active"><a href="#"><span class="glyphicon glyphicon-comment"></span>  News</a></li>
-              <li><a href="Team.html"><span class="glyphicon glyphicon-user"></span>  Team</a></li>
-              <li><a href="Sponsors.html"><span class="glyphicon glyphicon-thumbs-up"></span>  Sponsors</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources  <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="Resources/Programming.html">Programming</a></li>
-                  <li><a href="Resources/Business.html">Business</a></li>
-                  <li><a href="Resources/CAD.html">CAD</a></li>
-                  <li><a href="Resources/Building.html">Building</a></li>
-                  <li><a href="Resources/Scouting.html">Scouting</a></li>
-                  <li class="divider"></li>
-                  <li><a href="Resources/Other.html">For Other Teams</a></li>
-                </ul>
-              </li>
-              <li><a href="Photos.html"><span class="glyphicon glyphicon-picture"></span>  Photos</a></li>
-              <li><a href="Contact.html"><span class="glyphicon glyphicon-send"></span>  Contact</a></li>
-              <li><a href="#"><span class="glyphicon glyphicon-wrench"></span>  The Robot</a></li>
-              <li><a href="Calendar.html"><span class="glyphicon glyphicon-calendar"></span>  Calendar</a></li>
-            </ul>
-        </div>
-    </div>
 			</nav><!-- #access -->
 			<div class="search-form">
 				<?php get_search_form(); ?>
