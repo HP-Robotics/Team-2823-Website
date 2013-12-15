@@ -25,7 +25,7 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-              <li><a href="../index.html">Home</a></li>
+              <li><a href="../index.html"><span class="glyphicon glyphicon-home"></span>Home</a></li>
               <li><a href="../FIRST.html">FIRST</a></li>
               <li class="active"><a href="../news">News</a></li>
               <li><a href="../Team.html">Team</a></li>
@@ -48,3 +48,5 @@
         </div>
       </div>
     </div>
+    </body>
+    </html>
