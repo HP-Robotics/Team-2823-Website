@@ -9,6 +9,7 @@
     <title>Team 2823 - News</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
@@ -25,7 +26,7 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-              <li><a href="../index.html"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+              <li><a href="../index.html"><span class="glyphicon glyphicon-home"></span>  Home</a></li>
               <li><a href="../FIRST.html">FIRST</a></li>
               <li class="active"><a href="../news">News</a></li>
               <li><a href="../Team.html">Team</a></li>
