@@ -1,8 +1,20 @@
 <hr>
-<div id="footer">
-	<div class = "container">
-		<p class="text-muted credit pull-left">&copy;The Automatons 2013</p>
-		<p class="text-muted credit pull-right"><a href="http://www.highland-2823.com/news/wp-admin">Login</a></p>
+<div class="container">
+	<div class="row text-center">
+		<div class="col-md-3"> <a href="https://www.facebook.com/pages/The-Automatons/504175326325495"><img src="http://highland-2823.com/social/facebook500.png" width="100" height="100"></a> </div>
+		<div class="col-md-3"> <a href="https://plus.google.com/105457037277552965514/posts"><img src="http://highland-2823.com/social/googleplus.png" width="100" height="100"></a> </div>
+		<div class="col-md-3"> <a href="https://twitter.com/FRC2823"><img src="http://highland-2823.com/social/twitter.png" width="100" height="100"></a> </div>
+		<div class="col-md-3"> <a href="https://www.youtube.com/user/highland2823"><img src="http://highland-2823.com/social/youtube.png" width="100" height="100"></a> </div>
+	</div>
+</div>
+<div class="container">
+	<div class="row contact-footer">
+		<div id="footer">
+			<div class = "container">
+				<p class="text-muted credit pull-left">&copy;The Automatons 2013</p>
+				<p class="text-muted credit pull-right"><a href="http://www.highland-2823.com/news/wp-admin">Login</a></p>
+			</div>
+		</div>
 	</div>
 </div>
 <script>
