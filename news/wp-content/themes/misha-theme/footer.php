@@ -1,12 +1,11 @@
-	<hr>
-
+<hr>
 <div id="footer">
-    <div class = "container">
-      <p class="text-muted credit pull-left">&copy;The Automatons 2013</p>
-      <p class="text-muted credit pull-right"><a href="http://www.highland-2823.com/news/wp-admin">Login</a></p>
-    </div>
-  </div>
-          <script>
+	<div class = "container">
+		<p class="text-muted credit pull-left">&copy;The Automatons 2013</p>
+		<p class="text-muted credit pull-right"><a href="http://www.highland-2823.com/news/wp-admin">Login</a></p>
+	</div>
+</div>
+<script>
 (function() {
     var header = new Headroom(document.querySelector("#header"), {
         tolerance: 5,
@@ -30,15 +29,13 @@
     });
     bttHeadroom.init();
 }());
-</script>
-    <script src="https://code.jquery.com/jquery.js"></script>
-    <script src="http://www.highland-2823/js/bootstrap.js"></script>
-    <script src="http://www.highland-2823/js/headroom.js"></script>
-    <script src="http://www.highland-2823/js/holder.js"></script>
-      <script>
+</script> 
+<script src="https://code.jquery.com/jquery.js"></script> 
+<script src="http://www.highland-2823/js/bootstrap.js"></script> 
+<script src="http://www.highland-2823/js/headroom.js"></script> 
+<script src="http://www.highland-2823/js/holder.js"></script> 
+<script>
       $("header").headroom();
           </script>
-
 <?php wp_footer(); ?>
-</body>
-</html>
+</body></html>

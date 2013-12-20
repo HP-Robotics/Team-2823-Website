@@ -1,11 +1,16 @@
 <html>
 <head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" href="favicon.png">
 <title>Team 2823 - Photos</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="shortcut icon" href="favicon.png">
 <link href="custom.css" rel="stylesheet">
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="css/animate.css" rel="stylesheet">
 <link rel="stylesheet" href="css/blueimp-gallery.min.css">
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -17,7 +22,8 @@ ga('send', 'pageview');
 </script>
 </head>
 <body>
-<div class="navbar-inverse navbar navbar-fixed-top navbar1" role="navigation">
+<header data-headroom data-tolerance="5" data-offset="205" data-classes='{"initial":"animated","pinned":"slideDown","unpinned":"slideUp"}'></header>
+<div class="navbar-inverse navbar navbar-fixed-top navbar1 animated slideInDown" role="navigation">
 	<div class="container">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
@@ -48,7 +54,6 @@ ga('send', 'pageview');
 		</div>
 	</div>
 </div>
-s
 <div class="container">
 	<div class="jumbotron">
 		<h1>Photos</h1>
@@ -66,8 +71,37 @@ s
 	<div id="links" class="text-center"> <a href="images/1.jpg"> <img src="images/thumbs/1.jpg"> </a> <a href="images/2.jpg"> <img src="images/thumbs/2.jpg"> </a> <a href="images/3.jpg"> <img src="images/thumbs/3.jpg"> </a> <a href="images/4.jpg"> <img src="images/thumbs/4.jpg"> </a> <a href="images/6.jpg"> <img src="images/thumbs/6.jpg"> </a> <a href="images/7.jpg"> <img src="images/thumbs/7.jpg"> </a> <a href="images/8.jpg"> <img src="images/thumbs/8.jpg"> </a> <a href="images/9.jpg"> <img src="images/thumbs/9.jpg"> </a> <a href="images/10.jpg"> <img src="images/thumbs/10.jpg"> </a> <a href="images/11.jpg"> <img src="images/thumbs/11.jpg"> </a> <a href="images/12.jpg"> <img src="images/thumbs/2.jpg"> </a> <a href="images/13.jpg"> <img src="images/thumbs/13.jpg"> </a> <a href="images/14.jpg"> <img src="images/thumbs/14.jpg"> </a> <a href="images/15.jpg"> <img src="images/thumbs/15.jpg"> </a> <a href="images/16.jpg"> <img src="images/thumbs/16.jpg"> </a> <a href="images/17.jpg"> <img src="images/thumbs/17.jpg"> </a> <a href="images/18.jpg"> <img src="images/thumbs/18.jpg"> </a> <a href="images/19.jpg"> <img src="images/thumbs/19.jpg"> </a> <a href="images/20.jpg"> <img src="images/thumbs/20.jpg"> </a> <a href="images/21.jpg"> <img src="images/thumbs/21.jpg"> </a> <a href="images/22.jpg"> <img src="images/thumbs/22.jpg"> </a> <a href="images/23.jpg"> <img src="images/thumbs/23.jpg"> </a> <a href="images/24.jpg"> <img src="images/thumbs/24.jpg"> </a> <a href="images/25.jpg"> <img src="images/thumbs/25.jpg"> </a> <a href="images/26.jpg"> <img src="images/thumbs/26.jpg"> </a> <a href="images/27.jpg"> <img src="images/thumbs/27.jpg"> </a> <a href="images/28.jpg"> <img src="images/thumbs/28.jpg"> </a> </div>
 </div>
 <hr>
+<script>
+(function() {
+var header = new Headroom(document.querySelector("#header"), {
+tolerance: 5,
+offset : 205,
+classes: {
+initial: "animated",
+pinned: "slideDown",
+unpinned: "slideUp"
+}
+});
+header.init();
+var bttHeadroom = new Headroom(document.getElementById("btt"), {
+tolerance : 0,
+offset : 500,
+classes : {
+initial : "slide",
+pinned : "slide--reset",
+unpinned : "slide--down"
+}
+});
+bttHeadroom.init();
+}());
+</script> 
 <script src="https://code.jquery.com/jquery.js"></script> 
 <script src="js/bootstrap.js"></script> 
+<script src="js/headroom.js"></script> 
+<script src="js/holder.js"></script> 
+<script>
+$("header").headroom();
+</script>
 <script src="js/blueimp-gallery.min.js"></script> 
 <script>
 document.getElementById('links').onclick = function (event) {
