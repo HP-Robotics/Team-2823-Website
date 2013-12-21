@@ -29,26 +29,34 @@ ga('send', 'pageview');
 			<a class="navbar-brand" href="http://www.highland-2823.com/index.html">Team 2823</a> </div>
 		<div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
-				<li><a href="http://www.highland-2823.com/index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
-				<li><a href="http://www.highland-2823.com/FIRST.html"><span class="glyphicon glyphicon-globe"></span> FIRST</a></li>
-				<li class="active"><a href="http://www.highland-2823.com/news"><span class="glyphicon glyphicon-comment"></span> News</a></li>
-				<li><a href="http://www.highland-2823.com/Team.html"><span class="glyphicon glyphicon-user"></span> Team</a></li>
-				<li><a href="http://www.highland-2823.com/Sponsors.html"><span class="glyphicon glyphicon-thumbs-up"></span> Sponsors</a></li>
-				<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
+				<li><a href="../../../../index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+				<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
 					<ul class="dropdown-menu">
-						<li><a href="http://www.highland-2823.com/Resources/Programming.html">Programming</a></li>
-						<li><a href="http://www.highland-2823.com/Resources/Business.html">Business</a></li>
-						<li><a href="http://www.highland-2823.com/Resources/CAD.html">CAD</a></li>
-						<li><a href="http://www.highland-2823.com/Resources/Building.html">Building</a></li>
-						<li><a href="http://www.highland-2823.com/Resources/Scouting.html">Scouting</a></li>
-						<li class="divider"></li>
-						<li><a href="http://www.highland-2823.com/Resources/Other.html">For Other Teams</a></li>
+						<li><a href="../../../../Team.html"><span class="glyphicon glyphicon-user"></span> Team</a></li>
+                        <li><a href="../../../../Robot.html"><span class="glyphicon glyphicon-wrench"></span> The Robot</a></li>
+                        <li><a href="../../../../Sponsors.html"><span class="glyphicon glyphicon-thumbs-up"></span> Sponsors</a></li>
 					</ul>
 				</li>
-				<li><a href="http://www.highland-2823.com/Photos.html"><span class="glyphicon glyphicon-picture"></span> Photos</a></li>
-				<li><a href="http://www.highland-2823.com/Contact.html"><span class="glyphicon glyphicon-send"></span> Contact</a></li>
-				<li><a href="http://www.highland-2823.com/Robot.html"><span class="glyphicon glyphicon-wrench"></span> The Robot</a></li>
-				<li><a href="http://www.highland-2823.com/Calendar.html"><span class="glyphicon glyphicon-calendar"></span> Calendar</a></li>
+                <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Media <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="../../../../Photos.html"><span class="glyphicon glyphicon-picture"></span> Photos</a></li>
+                        <li class="active"><a href="#"><span class="glyphicon glyphicon-comment"></span> News</a></li>
+                        <li><a href="../../../../Calendar.html"><span class="glyphicon glyphicon-calendar"></span> Calendar</a></li>
+					</ul>
+				</li>
+				<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="../../../../Resources/Programming.html">Programming</a></li>
+						<li><a href="../../../../Resources/Business.html">Business</a></li>
+						<li><a href="../../../../Resources/CAD.html">CAD</a></li>
+						<li><a href="../../../../Resources/Building.html">Building</a></li>
+						<li><a href="../../../../Resources/Scouting.html">Scouting</a></li>
+						<li class="divider"></li>
+						<li><a href="../../../../Resources/Other.html">For Other Teams</a></li>
+					</ul>
+				</li>
+				<li><a href="../../../../FIRST.html"><span class="glyphicon glyphicon-globe"></span> FIRST</a></li>
+				<li><a href="../../../../Contact.html"><span class="glyphicon glyphicon-send"></span> Contact</a></li>
 			</ul>
 		</div>
 	</div>
