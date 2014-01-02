@@ -8,7 +8,7 @@
 <title>Team 2823 - News</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
-<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="../../../../css/bootstrap-theme.min.css" rel="stylesheet">
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -60,3 +60,53 @@ ga('send', 'pageview');
 		</div>
 	</div>
 </div>
+<div class="container">
+	<div class="row text-center">
+		<div class="col-xs-6"> <a href="https://www.facebook.com/pages/The-Automatons/504175326325495"><img src="../../../../social/facebook500.png" width="100" height="100"></a> </div>
+		<div class="col-xs-6"> <a href="https://plus.google.com/105457037277552965514/posts"><img src="../../../../social/googleplus.png" width="100" height="100"></a> </div>
+        <div class="col-xs-6" style="padding-top:50px"> <a href="https://twitter.com/FRC2823"><img src="../../../../social/twitter.png" width="100" height="100"></a> </div>
+		<div class="col-xs-6" style="padding-top:50px"> <a href="https://www.youtube.com/user/highland2823"><img src="../../../../social/youtube.png" width="100" height="100"></a> </div>
+	</div>
+</div>
+<div class="container">
+	<div class="row contact-footer">
+		<div id="footer">
+			<div class = "container">
+				<p class="text-muted credit text-center">&copy;The Automatons 2013</p>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+(function() {
+var header = new Headroom(document.querySelector("#header"), {
+tolerance: 5,
+offset : 205,
+classes: {
+initial: "animated",
+pinned: "slideDown",
+unpinned: "slideUp"
+}
+});
+header.init();
+var bttHeadroom = new Headroom(document.getElementById("btt"), {
+tolerance : 0,
+offset : 500,
+classes : {
+initial : "slide",
+pinned : "slide--reset",
+unpinned : "slide--down"
+}
+});
+bttHeadroom.init();
+}());
+</script> 
+<script src="https://code.jquery.com/jquery.js"></script> 
+<script src="../../../../js/bootstrap.js"></script> 
+<script src="../../../../js/headroom.js"></script> 
+<script src="../../../../js/holder.js"></script> 
+<script>
+$("header").headroom();
+</script>
+</body>
+</html>
