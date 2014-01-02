@@ -26,7 +26,7 @@ ga('send', 'pageview');
 	<div class="container">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-			<a class="navbar-brand" href="http://www.highland-2823.com/index.html">Team 2823 Test 1</a> </div>
+			<a class="navbar-brand" href="http://www.highland-2823.com/index.html">Team 2823</a> </div>
 		<div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav navbar-right">
 				<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
