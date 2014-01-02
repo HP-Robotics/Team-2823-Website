@@ -54,8 +54,8 @@ ga('send', 'pageview');
 						<li><a href="../../../../Resources/Other.html">For Other Teams</a></li>
 					</ul>
 				</li>
-				<li><a href="../../../../FIRST.html"><span class="glyphicon glyphicon-globe"></span> FIRST</a></li>
-				<li><a href="../../../../Contact.html"><span class="glyphicon glyphicon-send"></span> Contact</a></li>
+				<li><a href="../../../../FIRST.html">FIRST</a></li>
+				<li><a href="../../../../Contact.html">Contact</a></li>
 			</ul>
 		</div>
 	</div>
