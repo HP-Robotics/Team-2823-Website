@@ -8,7 +8,10 @@
 <title>Team 2823 - News</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
+<link href="../../../../custom.css" rel="stylesheet">
+<link href="../../../../css/bootstrap.css" rel="stylesheet">
 <link href="../../../../css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="../../../../css/animate.css" rel="stylesheet">
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
