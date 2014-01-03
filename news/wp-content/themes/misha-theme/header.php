@@ -48,11 +48,11 @@ ga('send', 'pageview');
 				</li>
 				<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
 					<ul class="dropdown-menu">
-						<li><a href="../../../../Resources/Programming.html">Programming</a></li>
-						<li><a href="../../../../Resources/Business.html">Business</a></li>
-						<li><a href="../../../../Resources/CAD.html">CAD</a></li>
-						<li><a href="../../../../Resources/Building.html">Building</a></li>
-						<li><a href="../../../../Resources/Scouting.html">Scouting</a></li>
+						<li><a href="../../../../Programming.html"><span class="glyphicon glyphicon-asterisk"></span>  Programming</a></li>
+						<li><a href="../../../../Business.html"><span class="glyphicon glyphicon-briefcase"></span>  Business</a></li>
+						<li><a href="../../../../CAD.html"><span class="glyphicon glyphicon-pencil"></span>  CAD</a></li>
+						<li><a href="../../../../Building.html"><span class="glyphicon glyphicon-wrench"></span>  Building</a></li>
+						<li><a href="../../../../Scouting.html"><span class="glyphicon glyphicon-list"></span>  Scouting</a></li>
 						<li class="divider"></li>
 						<li><a href="../../../../Resources/Other.html">For Other Teams</a></li>
 					</ul>
