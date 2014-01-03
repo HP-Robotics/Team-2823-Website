@@ -111,5 +111,3 @@ bttHeadroom.init();
 <script>
 $("header").headroom();
 </script>
-</body>
-</html>
