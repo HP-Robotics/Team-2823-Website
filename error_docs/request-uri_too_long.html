@@ -1,18 +1,116 @@
-<HTML>
-<HEAD>
-<TITLE>414 Request-URI Too Long</TITLE>
-<BASE href="/error_docs/"><!--[if lte IE 6]></BASE><![endif]-->
-</HEAD>
-<BODY>
-<H1>Request-URI Too Long</H1>
-The Web server is refusing to service the request because the requested URL address is too long.<P>
-<HR>
-<ADDRESS>
-Web Server at &#104;&#105;&#103;&#104;&#108;&#97;&#110;&#100;&#45;&#50;&#56;&#50;&#51;&#46;&#99;&#111;&#109;
-</ADDRESS>
-</BODY>
-</HTML>
-
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="shortcut icon" href="http://www.highland-2823.com/favicon.png">
+<title>Error - 414 Request URI Too Long</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="http://www.highland-2823.com/custom.css" rel="stylesheet">
+<link href="http://www.highland-2823.com/css/bootstrap.css" rel="stylesheet">
+<link href="http://www.highland-2823.com/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="http://www.highland-2823.com/css/animate.css" rel="stylesheet">
+<BASE href="/error_docs/">
+<!--[if lte IE 6]></BASE><![endif]-->
+</head>
+<body>
+<header data-headroom data-tolerance="5" data-offset="205" data-classes='{"initial":"animated","pinned":"slideDown","unpinned":"slideUp"}'></header>
+<div class="navbar-inverse navbar navbar-fixed-top navbar1 animated slideInDown" role="navigation">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+			<a class="navbar-brand" href="http://www.highland-2823.com/">Team 2823</a> </div>
+		<div class="navbar-collapse collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="http://www.highland-2823.com/Team.html"><span class="glyphicon glyphicon-user"></span> Team</a></li>
+						<li><a href="http://www.highland-2823.com/Robot.html"><span class="glyphicon glyphicon-wrench"></span> The Robot</a></li>
+						<li><a href="http://www.highland-2823.com/Sponsors.html"><span class="glyphicon glyphicon-thumbs-up"></span> Sponsors</a></li>
+					</ul>
+				</li>
+				<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Media <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="http://www.highland-2823.com/Photos.html"><span class="glyphicon glyphicon-picture"></span> Photos</a></li>
+						<li><a href="http://www.highland-2823.com/Calendar.html"><span class="glyphicon glyphicon-calendar"></span> Calendar</a></li>
+					</ul>
+				</li>
+				<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="http://www.highland-2823.com/Resources/Programming.html"><span class="glyphicon glyphicon-asterisk"></span> Programming</a></li>
+						<li><a href="http://www.highland-2823.com/Resources/Business.html"><span class="glyphicon glyphicon-briefcase"></span> Business</a></li>
+						<li><a href="http://www.highland-2823.com/Resources/CAD.html"><span class="glyphicon glyphicon-pencil"></span> CAD</a></li>
+						<li><a href="http://www.highland-2823.com/Resources/Building.html"><span class="glyphicon glyphicon-wrench"></span> Building</a></li>
+						<li><a href="http://www.highland-2823.com/Resources/Scouting.html"><span class="glyphicon glyphicon-list"></span> Scouting</a></li>
+						<li class="divider"></li>
+						<li><a href="http://www.highland-2823.com/Resources/Other.html">For Other Teams</a></li>
+					</ul>
+				</li>
+				<li><a href="http://www.highland-2823.com/Resources/FIRST.html">FIRST</a></li>
+				<li><a href="http://www.highland-2823.com/Resources/Contact.html">Contact</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+<p class="navbar-padding"></p>
+<div class="container">
+	<div class="jumbotron">
+		<h1>414 - Request URI Too Long</h1>
+		<h2>The Web server is refusing to service the request because the requested URL address is too long. Sorry.</h2>
+		<p><a class="btn btn-lg btn-primary" href="http://www.highland-2823.com" role="button">Go Home</a></p>
+	</div>
+</div>
+<hr>
+<div class="container"> <img src="http://www.highland-2823.com/social/facebook.png" width="100" height="100">
+	<div style="padding-top: 20px;" id="movers-row">
+		<div><img src="http://www.highland-2823.com/social/googleplus.png" width="100" height="100"></div>
+		<div><img src="http://www.highland-2823.com/social/twitter.png" width="100" height="100"></div>
+		<div><img src="http://www.highland-2823.com/social/youtube.png" width="100" height="100"></div>
+	</div>
+</div>
+<br>
+<div class="container">
+	<div class="row contact-footer">
+		<div id="footer">
+			<div class = "container">
+				<p class="text-muted credit pull-left">&copy; The Automatons 2013</p>
+				<p class="text-muted credit pull-right"><a href="http://www.highland-2823.com/wp-admin">Login</a></p>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+(function() {
+var header = new Headroom(document.querySelector("#header"), {
+tolerance: 5,
+offset : 205,
+classes: {
+initial: "animated",
+pinned: "slideDown",
+unpinned: "slideUp"
+}
+});
+header.init();
+var bttHeadroom = new Headroom(document.getElementById("btt"), {
+tolerance : 0,
+offset : 500,
+classes : {
+initial : "slide",
+pinned : "slide--reset",
+unpinned : "slide--down"
+}
+});
+bttHeadroom.init();
+}());
+</script> 
+<script src="https://code.jquery.com/jquery.js"></script> 
+<script src="http://www.highland-2823.com/js/bootstrap.js"></script> 
+<script src="http://www.highland-2823.com/js/headroom.js"></script> 
+<script src="http://www.highland-2823.com/js/holder.js"></script> 
+<script>
+$("header").headroom();
+</script>
+</body>
+</html>
 <!--
 - Unfortunately, Microsoft has added a clever new
 - "feature" to Internet Explorer. If the text of
