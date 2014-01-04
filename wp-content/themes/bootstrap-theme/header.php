@@ -5,8 +5,9 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <link rel="shortcut icon" href="favicon.png">
-<title>Team 2823 - Contact</title>
+<title>Team 2823</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
 <link href="custom.css" rel="stylesheet">
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/bootstrap-theme.min.css" rel="stylesheet">
@@ -19,14 +20,15 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-46265245-1', 'highland-2823.com');
 ga('send', 'pageview');
 </script>
+<?php wp_head(); ?>
 </head>
-<body>
+<body <?php body_class(); ?>>
 <header data-headroom data-tolerance="5" data-offset="205" data-classes='{"initial":"animated","pinned":"slideDown","unpinned":"slideUp"}'></header>
 <div class="navbar-inverse navbar navbar-fixed-top navbar1 animated slideInDown" role="navigation">
 	<div class="container">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-			<a class="navbar-brand" href="/">Team 2823</a> </div>
+			<a class="navbar-brand" href="http://www.highland-2823.com/">Team 2823</a> </div>
 		<div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav navbar-right">
 				<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
@@ -54,59 +56,8 @@ ga('send', 'pageview');
 					</ul>
 				</li>
 				<li><a href="FIRST.html">FIRST</a></li>
-				<li class="active"><a href="#">Contact</a></li>
+				<li><a href="Contact.html">Contact</a></li>
 			</ul>
-		</div>
-	</div>
-</div>
-<div class="container">
-	<div class="jumbotron">
-		<h1>Contact</h1>
-		<p>There are many ways to get in touch with The Automatons!</p>
-	</div>
-	<div class="marketing container">
-		<div class="row featurette">
-			<div class="col-md-8">
-				<h2 class="featurette-heading">E-Mail Us</h2>
-				<p class="lead">Email us at info@team2823.com or click the button below!</p>
-				<a class="btn btn-lg btn-primary" href="mailto:info@team2823.com">Send E-Mail</a> </div>
-		</div>
-		<hr class="featurette-divider">
-		<div class="row featurette">
-			<div class="col-md-4">
-				<iframe src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d5651.287439419203!2d-93.16664412817681!3d44.91024331336418!3m2!1i1024!2i768!4f13.1!3m2!1m1!1s0x0%3A0xafb40b742af4c664!5e0!3m2!1sen!2sus!4v1385857787407" scrolling="no" marginheight="0" marginwidth="0" width="460" height="450" frameborder="0" style="border:0"></iframe>
-			</div>
-			<div class="col-md-7 pull-right text-right">
-				<h2 class="featurette-heading">Map It</h2>
-				<p class="lead">Send us goodies and meet us in person!</p>
-				<a class="btn btn-lg btn-primary" href="http://maps.google.com/maps?ll=44.909848,-93.168103&z=15&t=m&hl=en-US&gl=US&mapclient=embed&iwloc=lyrftr:m,12660757046010103396,44.910065,-93.16743699999999">Map It</a> </div>
-		</div>
-		<hr class="featurette-divider">
-		<div class="row featurette">
-			<div class="col-md-7">
-				<h2 class="featurette-heading">Carrier Pigeon</h2>
-				<p class="lead">Tell your feathered friends to carry robot parts directly to us!</p>
-				<a class="btn btn-lg btn-primary" href="http://en.wikipedia.org/wiki/Carrier_pigeon">Fly It</a> </div>
-			<div class="col-md-4 pull-right"> <img class="featurette-image img-responsive" src="images/pidgeon.jpg" width="500" height="500"> </div>
-		</div>
-	</div>
-</div>
-<hr>
-<div class="container"> <img src="social/facebook.png" width="100" height="100">
-	<div style="padding-top: 20px;" id="movers-row">
-		<div><img src="social/googleplus.png" width="100" height="100"></div>
-		<div><img src="social/twitter.png" width="100" height="100"></div>
-		<div><img src="social/youtube.png" width="100" height="100"></div>
-	</div>
-</div>
-<br>
-<div class="container">
-	<div class="row contact-footer">
-		<div id="footer">
-			<div class = "container">
-				<p class="text-muted credit pull-left">&copy; The Automatons 2013</p>
-				<p class="text-muted credit pull-right"><a href="http://www.highland-2823.com/wp-admin">Login</a></p>
-			</div>
 		</div>
 	</div>
 </div>
@@ -141,5 +92,3 @@ bttHeadroom.init();
 <script>
 $("header").headroom();
 </script>
-</body>
-</html>
