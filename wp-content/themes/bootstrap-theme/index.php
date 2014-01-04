@@ -38,6 +38,7 @@ body {
 	<div class="container">
 		<div class="jumbotron">
 			<h1>News</h1>
+			<a style="cursor: pointer" onclick="javascript: window.location = 'http://www.highland-2823.com/potato.html';"><img class="pull-right" src="img/blank.png" width="10" height="10"/></a>
 			<p>You'll find updates from the team here</p>
 		</div>
 		<article id="content">
