@@ -32,6 +32,7 @@ ga('send', 'pageview');
 </div>
 <div class="container">
 	<h1>Mission</h1>
+	<hr>
 	<p>Begun in 1992 in New Hampshire, FIRST teams reach close to 250,000 young people. This year there are more than 2,500 active teams across the United and in 15 other countries. The high school league, FIRST Robotics Competition (FRC) has more than 160 teams in Minnesota. FIRST Robotics is now a Minnesota Youth High School League, so team members can letter in robotics, and aspire to compete in the Minnesota State Tournament.</p>
 	<blockquote class="pull-right">
 		<p>"Our mission is to inspire young people to be science and technology leaders, by engaging them in exciting mentor-based programs that build science, engineering and technology skills, that inspire innovation, and that foster well-rounded life capabilities including self-confidence, communication, and leadership."</p>
@@ -41,9 +42,12 @@ ga('send', 'pageview');
 		<div class="col-md-7 pull-right">
 			<p>The Highland Park Senior High School team meets throughout the school year, first to teach design skills and build teamwork, and then to design, build, and program a competitive robot each year. We participate in Regional Competitions around the state to compete with other teams. One thing that the FIRST organization believes in strongly is Gracious Professionalism. Teams are encouraged to show their gracious professionalism throughout the competitive season in order to prepare them for real world situations. This year Highland Park team members and mentors are mentoring a rookie high school robotics team and a junior high Lego League team. We've conducted demonstrations at robotics events, the Minnesota State Fair and the Mall of America.</p>
 			<br>
-			<p class="text-center"><a class="btn btn-lg btn-primary" href="http://www.usfirst.org/" role="button">Learn More about FIRST</a></p>
+			<p class="text-center"><a class="btn btn-lg btn-primary" href="http://www.usfirst.org/aboutus/first-at-a-glance" role="button">Learn More about FIRST</a></p>
 		</div>
 	</div>
+	<h1>2014 Competition <small>Aerial Assist</small></h1>
+	<hr>
+	<div class="text-center"><iframe width="853" height="480" src="//www.youtube.com/embed/f5zWzICG5to?rel=0" frameborder="0" allowfullscreen></iframe></div>
 </div>
 <!--#include virtual="footer.shtml"-->
 <script>
