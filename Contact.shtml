@@ -44,14 +44,6 @@ ga('send', 'pageview');
 				<p class="lead">Send us goodies and meet us in person!</p>
 				<a class="btn btn-lg btn-primary" href="http://maps.google.com/maps?ll=44.909848,-93.168103&z=15&t=m&hl=en-US&gl=US&mapclient=embed&iwloc=lyrftr:m,12660757046010103396,44.910065,-93.16743699999999">Map It</a> </div>
 		</div>
-		<hr class="featurette-divider">
-		<div class="row featurette">
-			<div class="col-md-7">
-				<h2 class="featurette-heading">Carrier Pigeon</h2>
-				<p class="lead">Tell your feathered friends to carry robot parts directly to us!</p>
-				<a class="btn btn-lg btn-primary" href="http://en.wikipedia.org/wiki/Carrier_pigeon">Fly It</a> </div>
-			<div class="col-md-4 pull-right"> <img class="featurette-image img-responsive" src="images/pidgeon.jpg" width="500" height="500"> </div>
-		</div>
 	</div>
 </div>
 <!--#include virtual="footer.shtml"-->
