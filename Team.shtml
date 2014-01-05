@@ -30,7 +30,7 @@ ga('send', 'pageview');
 </div>
 <div class="container">
 	<div class="col-sm-6">
-		<div class="panel panel-default">
+		<div class="panel panel-default panel-primary">
 			<div class="panel-heading" align="center">
 				<h1>Build Team</h1>
 			</div>
@@ -41,71 +41,37 @@ ga('send', 'pageview');
 		</div>
 	</div>
 	<div class="col-sm-6">
-		<table class="table table-bordered">
-			<thead>
-				<tr>
-					<th> <h3 align="center"><b>Leader: </b>Taylor K.</h3>
-					</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td><li>
-							<h3>Alex S.</h3>
-						</li>
-						<li>
-							<h3>Aaron D.</h3>
-						</li>
-						<li>
-							<h3>Ryan B.</h3>
-						</li>
-						<li>
-							<h3>Taylor N.</h3>
-						</li>
-						<li>
-							<h3>Tristan N.</h3>
-						</li>
-						<li>
-							<h3>Brady A.</h3>
-						</li>
-						<li>
-							<h3>Ray A.</h3>
-						</li>
-						<li>
-							<h3>Yusuf A.</h3>
-						</li></td>
-				</tr>
-			</tbody>
-		</table>
+		<div class="panel panel-default panel-primary">
+			<div class="panel-body">
+				<p>Alex S.</p>
+				<p>Aaron D.</p>
+				<p>Ryan B.</p>
+				<p>Taylor N.</p>
+				<p>Tristan N.</p>
+				<p>Brady A.</p>
+				<p>Ray A.</p>
+				<p>Yusuf A.</p>
+			</div>
+			<div class="panel-footer"><b>Leader: </b>Taylor K.</div>
+		</div>
 	</div>
 </div>
+<div class="container">
 <hr>
+</div>
 <div class="container">
 	<div class="col-sm-6">
-		<table class="table table-bordered">
-			<thead>
-				<tr>
-					<th> <h3 align="center"><b>Leader: </b>Misha P.</h3>
-					</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td><li>
-							<h3>Marcell T.</h3>
-						</li>
-						<li>
-							<h3>David W.</h3>
-						</li>
-						<li>
-							<h3>Tate B.</h3>
-						</li></td>
-				</tr>
-			</tbody>
-		</table>
+		<div class="panel panel-default panel-primary">
+			<div class="panel-body">
+				<p>Marcell T.</p>
+				<p>David W.</p>
+				<p>Tate B.</p>
+			</div>
+			<div class="panel-footer"><b>Leader: </b>Misha P.</div>
+		</div>
 	</div>
 	<div class="col-sm-6">
-		<div class="panel panel-default">
+		<div class="panel panel-default panel-primary">
 			<div class="panel-heading" align="center">
 				<h1>Coding Team</h1>
 			</div>
@@ -116,10 +82,12 @@ ga('send', 'pageview');
 		</div>
 	</div>
 </div>
+<div class="container">
 <hr>
+</div>
 <div class="container">
 	<div class="col-sm-6">
-		<div class="panel panel-default">
+		<div class="panel panel-default panel-primary">
 			<div class="panel-heading" align="center">
 				<h1>Media Team</h1>
 			</div>
@@ -129,52 +97,31 @@ ga('send', 'pageview');
 		</div>
 	</div>
 	<div class="col-sm-6">
-		<table class="table table-bordered">
-			<thead>
-				<tr>
-					<th> <h3 align="center"><b>Leader: </b>Allen L.</h3>
-					</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td><li>
-							<h3>Ellery B.</h3>
-						</li>
-						<li>
-							<h3>Taylor K.</h3>
-						</li></td>
-				</tr>
-			</tbody>
-		</table>
+	<div class="panel panel-default panel-primary">
+			<div class="panel-body">
+				<p>Ellery B.</p>
+				<p>Taylor K.</p>
+			</div>
+			<div class="panel-footer"><b>Leader: </b>Allen L.</div>
+		</div>
 	</div>
 </div>
+<div class="container">
 <hr>
+</div>
 <div class="container">
 	<div class="col-sm-6">
-		<table class="table table-bordered">
-			<thead>
-				<tr>
-					<th><h3 align="center"><b>Leader: </b> Jack M.</h3></th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td><li>
-							<h3>Audrey D.</h3>
-						</li>
-						<li>
-							<h3>Eva C.</h3>
-						</li>
-						<li>
-							<h3>Hunter Santos</h3>
-						</li></td>
-				</tr>
-			</tbody>
-		</table>
+			<div class="panel panel-default panel-primary">
+			<div class="panel-body">
+				<p>Audrey D.</p>
+				<p>Eva C.</p>
+				<p>Hunter S.</p>
+			</div>
+			<div class="panel-footer"><b>Leader: </b>Jack M.</div>
+		</div>
 	</div>
 	<div class="col-sm-6">
-		<div class="panel panel-default">
+		<div class="panel panel-default panel-primary">
 			<div class="panel-heading" align="center">
 				<h1>Business Team</h1>
 			</div>
@@ -184,10 +131,12 @@ ga('send', 'pageview');
 		</div>
 	</div>
 </div>
+<div class="container">
 <hr>
+</div>
 <div class="container">
 	<div class="col-sm-6">
-		<div class="panel panel-default">
+		<div class="panel panel-default panel-primary">
 			<div class="panel-heading" align="center">
 				<h1>Mentors</h1>
 			</div>
@@ -197,47 +146,22 @@ ga('send', 'pageview');
 		</div>
 	</div>
 	<div class="col-sm-6">
-		<table class="table table-bordered">
-			<thead>
-				<tr>
-					<th><h3 align="center"><b>Coach: </b> Lynn I.</h3></th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td><li>
-							<h3>Ryan Mulso - Highland Park Senior High</h3>
-						</li>
-						<li>
-							<h3>Jeremy W. - Codeweavers</h3>
-						</li>
-						<li>
-							<h3>John F. - Boston Scientific</h3>
-						</li>
-						<li>
-							<h3>Zachary H. - 3M</h3>
-						</li>
-						<li>
-							<h3>Justin W. - 3M</h3>
-						</li>
-						<li>
-							<h3>Michael L. - University of Minnesota</h3>
-						</li>
-						<li>
-							<h3>Julie K. - Adobe Systems</h3>
-						</li>
-						<li>
-							<h3>Doug K. - Parent</h3>
-						</li>
-						<li>
-							<h3>Wayne Z. - Mack Engineering</h3>
-						</li></td>
-				</tr>
-			</tbody>
-		</table>
+			<div class="panel panel-default panel-primary">
+			<div class="panel-body">
+				<h5>Ryan Mulso <small>Highland Park Senior High</small></h5>
+				<h5>Jeremy White <small>CodeWeavers</small></h5>
+				<h5>John Farley <small>Boston Scientific</small></h5>
+				<h5>Zachary Hurst <small>3M</small></h5>
+				<h5>Justin Wilhelm <small>3M</small></h5>
+				<h5>Michael Ludwig <small>University of Minnesota</small></h5>
+				<h5>Julie Kmoch <small>Adobe Systems</small></h5>
+				<h5>Doug Kmoch <small>Parent</small></h5>
+				<h5>Wayne Ziebell <small>Mack Engineering</small></h5>
+			</div>
+			<div class="panel-footer"><b>Leader: </b>Lynn Ihlenfeldt</div>
 	</div>
 </div>
-<!--#include virtual="footer.shtml"-->
+<!--#include virtual="footer.shtml"--> 
 <script>
 (function() {
 var header = new Headroom(document.querySelector("#header"), {
