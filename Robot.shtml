@@ -7,6 +7,7 @@
 <link rel="shortcut icon" href="favicon.png">
 <title>Team 2823 - Robot</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/tba.css" rel="stylesheet">
 <link href="custom.css" rel="stylesheet">
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="css/bootstrap-theme.min.css" rel="stylesheet">
@@ -28,7 +29,661 @@ ga('send', 'pageview');
 		<p>Check out the stats about our robot!</p>
 	</div>
 </div>
-<!--#include virtual="footer.shtml"-->
+<div class="container">
+	<h1>2013 Season</h1>
+	<hr>
+	<div style="padding-bottom: 20px;" class="text-center">
+	<img class="img-rounded" src="robot/square1.jpg" width="275" height="275">
+	<img class="img-rounded" src="robot/square2.jpg" width="275" height="275">
+	<img class="img-rounded" src="robot/square3.jpg" width="275" height="275">
+	<img class="img-rounded" src="robot/square4.jpg" width="275" height="275">
+	</div>
+	<table class="match-table">
+		<thead>
+			<tr class="key visible-lg">
+				<th>Match</th>
+				<th colspan="6">Red Alliance</th>
+				<th colspan="6">Blue Alliance</th>
+				<th colspan="2">Scores</th>
+			</tr>
+			<tr class="key hidden-lg">
+				<th rowspan="2">Match</th>
+				<th colspan="12">Red Alliance</th>
+				<th colspan="2">Red Score</th>
+			</tr>
+			<tr class="key hidden-lg">
+				<th colspan="12">Blue Alliance</th>
+				<th colspan="2">Blue Score</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class="key">
+				<th colspan="15">Qualifications</th>
+			</tr>
+			<tr class="visible-lg">
+				<td><a href="http://www.thebluealliance.com/match/2013mnmi_qm6">Quals 6</a></td>
+				<td colspan="2" class="red"><a href="http://www.thebluealliance.com/team/2529/2013">2529</a></td>
+				<td colspan="2" class="red"><a href="http://www.thebluealliance.com/team/2987/2013">2987</a></td>
+				<td colspan="2" class="red"><a href="http://www.thebluealliance.com/team/2705/2013">2705</a></td>
+				<td colspan="2" class="blue winner"><a href="http://www.thebluealliance.com/team/2825/2013">2825</a></td>
+				<td colspan="2" class="blue winner"><a href="http://www.thebluealliance.com/team/4360/2013">4360</a></td>
+				<td colspan="2" class="blue winner"><a href="./The Automatons - Team 2823 (2013) - The Blue Alliance_files/The Automatons - Team 2823 (2013) - The Blue Alliance.htm">2823</a></td>
+				<td class="redScore">50</td>
+				<td class="blueScore winner">86</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td rowspan="2"><a href="http://www.thebluealliance.com/match/2013mnmi_qm6">Quals 6</a></td>
+				<td class="red" colspan="4"><a href="http://www.thebluealliance.com/team/2529/2013">2529</a></td>
+				<td class="red" colspan="4"><a href="http://www.thebluealliance.com/team/2987/2013">2987</a></td>
+				<td class="red" colspan="4"><a href="http://www.thebluealliance.com/team/2705/2013">2705</a></td>
+				<td class="redScore" colspan="2">50</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td class="blue winner" colspan="4"><a href="http://www.thebluealliance.com/team/2825/2013">2825</a></td>
+				<td class="blue winner" colspan="4"><a href="http://www.thebluealliance.com/team/4360/2013">4360</a></td>
+				<td class="blue winner" colspan="4"><a href="./The Automatons - Team 2823 (2013) - The Blue Alliance_files/The Automatons - Team 2823 (2013) - The Blue Alliance.htm">2823</a></td>
+				<td class="blueScore winner" colspan="2">86</td>
+			</tr>
+			<tr class="visible-lg">
+				<td><a href="http://www.thebluealliance.com/match/2013mnmi_qm16">Quals 16</a></td>
+				<td colspan="2" class="red winner"><a href="./The Automatons - Team 2823 (2013) - The Blue Alliance_files/The Automatons - Team 2823 (2013) - The Blue Alliance.htm">2823</a></td>
+				<td colspan="2" class="red winner"><a href="http://www.thebluealliance.com/team/3407/2013">3407</a></td>
+				<td colspan="2" class="red winner"><a href="http://www.thebluealliance.com/team/3292/2013">3292</a></td>
+				<td colspan="2" class="blue"><a href="http://www.thebluealliance.com/team/2498/2013">2498</a></td>
+				<td colspan="2" class="blue"><a href="http://www.thebluealliance.com/team/3745/2013">3745</a></td>
+				<td colspan="2" class="blue"><a href="http://www.thebluealliance.com/team/3630/2013">3630</a></td>
+				<td class="redScore winner">31</td>
+				<td class="blueScore">26</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td rowspan="2"><a href="http://www.thebluealliance.com/match/2013mnmi_qm16">Quals 16</a></td>
+				<td class="red winner" colspan="4"><a href="./The Automatons - Team 2823 (2013) - The Blue Alliance_files/The Automatons - Team 2823 (2013) - The Blue Alliance.htm">2823</a></td>
+				<td class="red winner" colspan="4"><a href="http://www.thebluealliance.com/team/3407/2013">3407</a></td>
+				<td class="red winner" colspan="4"><a href="http://www.thebluealliance.com/team/3292/2013">3292</a></td>
+				<td class="redScore winner" colspan="2">31</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td class="blue" colspan="4"><a href="http://www.thebluealliance.com/team/2498/2013">2498</a></td>
+				<td class="blue" colspan="4"><a href="http://www.thebluealliance.com/team/3745/2013">3745</a></td>
+				<td class="blue" colspan="4"><a href="http://www.thebluealliance.com/team/3630/2013">3630</a></td>
+				<td class="blueScore" colspan="2">26</td>
+			</tr>
+			<tr class="visible-lg">
+				<td><a href="http://www.thebluealliance.com/match/2013mnmi_qm22">Quals 22</a></td>
+				<td colspan="2" class="red"><a href="http://www.thebluealliance.com/team/2501/2013">2501</a></td>
+				<td colspan="2" class="red"><a href="./The Automatons - Team 2823 (2013) - The Blue Alliance_files/The Automatons - Team 2823 (2013) - The Blue Alliance.htm">2823</a></td>
+				<td colspan="2" class="red"><a href="http://www.thebluealliance.com/team/2502/2013">2502</a></td>
+				<td colspan="2" class="blue winner"><a href="http://www.thebluealliance.com/team/3007/2013">3007</a></td>
+				<td colspan="2" class="blue winner"><a href="http://www.thebluealliance.com/team/4536/2013">4536</a></td>
+				<td colspan="2" class="blue winner"><a href="http://www.thebluealliance.com/team/525/2013">525</a></td>
+				<td class="redScore">89</td>
+				<td class="blueScore winner">92</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td rowspan="2"><a href="http://www.thebluealliance.com/match/2013mnmi_qm22">Quals 22</a></td>
+				<td class="red" colspan="4"><a href="http://www.thebluealliance.com/team/2501/2013">2501</a></td>
+				<td class="red" colspan="4"><a href="./The Automatons - Team 2823 (2013) - The Blue Alliance_files/The Automatons - Team 2823 (2013) - The Blue Alliance.htm">2823</a></td>
+				<td class="red" colspan="4"><a href="http://www.thebluealliance.com/team/2502/2013">2502</a></td>
+				<td class="redScore" colspan="2">89</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td class="blue winner" colspan="4"><a href="http://www.thebluealliance.com/team/3007/2013">3007</a></td>
+				<td class="blue winner" colspan="4"><a href="http://www.thebluealliance.com/team/4536/2013">4536</a></td>
+				<td class="blue winner" colspan="4"><a href="http://www.thebluealliance.com/team/525/2013">525</a></td>
+				<td class="blueScore winner" colspan="2">92</td>
+			</tr>
+			<tr class="visible-lg">
+				<td><a href="http://www.thebluealliance.com/match/2013mnmi_qm36">Quals 36</a></td>
+				<td colspan="2" class="red"><a href="http://www.thebluealliance.com/team/4651/2013">4651</a></td>
+				<td colspan="2" class="red"><a href="http://www.thebluealliance.com/team/2480/2013">2480</a></td>
+				<td colspan="2" class="red"><a href="http://www.thebluealliance.com/team/2846/2013">2846</a></td>
+				<td colspan="2" class="blue winner"><a href="http://www.thebluealliance.com/team/2479/2013">2479</a></td>
+				<td colspan="2" class="blue winner"><a href="http://www.thebluealliance.com/team/3202/2013">3202</a></td>
+				<td colspan="2" class="blue winner"><a href="./The Automatons - Team 2823 (2013) - The Blue Alliance_files/The Automatons - Team 2823 (2013) - The Blue Alliance.htm">2823</a></td>
+				<td class="redScore">6</td>
+				<td class="blueScore winner">9</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td rowspan="2"><a href="http://www.thebluealliance.com/match/2013mnmi_qm36">Quals 36</a></td>
+				<td class="red" colspan="4"><a href="http://www.thebluealliance.com/team/4651/2013">4651</a></td>
+				<td class="red" colspan="4"><a href="http://www.thebluealliance.com/team/2480/2013">2480</a></td>
+				<td class="red" colspan="4"><a href="http://www.thebluealliance.com/team/2846/2013">2846</a></td>
+				<td class="redScore" colspan="2">6</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td class="blue winner" colspan="4"><a href="http://www.thebluealliance.com/team/2479/2013">2479</a></td>
+				<td class="blue winner" colspan="4"><a href="http://www.thebluealliance.com/team/3202/2013">3202</a></td>
+				<td class="blue winner" colspan="4"><a href="./The Automatons - Team 2823 (2013) - The Blue Alliance_files/The Automatons - Team 2823 (2013) - The Blue Alliance.htm">2823</a></td>
+				<td class="blueScore winner" colspan="2">9</td>
+			</tr>
+			<tr class="visible-lg">
+				<td><a href="http://www.thebluealliance.com/match/2013mnmi_qm44">Quals 44</a></td>
+				<td colspan="2" class="red winner"><a href="http://www.thebluealliance.com/team/2227/2013">2227</a></td>
+				<td colspan="2" class="red winner"><a href="http://www.thebluealliance.com/team/3081/2013">3081</a></td>
+				<td colspan="2" class="red winner"><a href="http://www.thebluealliance.com/team/3018/2013">3018</a></td>
+				<td colspan="2" class="blue"><a href="./The Automatons - Team 2823 (2013) - The Blue Alliance_files/The Automatons - Team 2823 (2013) - The Blue Alliance.htm">2823</a></td>
+				<td colspan="2" class="blue"><a href="http://www.thebluealliance.com/team/4664/2013">4664</a></td>
+				<td colspan="2" class="blue"><a href="http://www.thebluealliance.com/team/2181/2013">2181</a></td>
+				<td class="redScore winner">62</td>
+				<td class="blueScore">53</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td rowspan="2"><a href="http://www.thebluealliance.com/match/2013mnmi_qm44">Quals 44</a></td>
+				<td class="red winner" colspan="4"><a href="http://www.thebluealliance.com/team/2227/2013">2227</a></td>
+				<td class="red winner" colspan="4"><a href="http://www.thebluealliance.com/team/3081/2013">3081</a></td>
+				<td class="red winner" colspan="4"><a href="http://www.thebluealliance.com/team/3018/2013">3018</a></td>
+				<td class="redScore winner" colspan="2">62</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td class="blue" colspan="4"><a href="./The Automatons - Team 2823 (2013) - The Blue Alliance_files/The Automatons - Team 2823 (2013) - The Blue Alliance.htm">2823</a></td>
+				<td class="blue" colspan="4"><a href="http://www.thebluealliance.com/team/4664/2013">4664</a></td>
+				<td class="blue" colspan="4"><a href="http://www.thebluealliance.com/team/2181/2013">2181</a></td>
+				<td class="blueScore" colspan="2">53</td>
+			</tr>
+			<tr class="visible-lg">
+				<td><a href="http://www.thebluealliance.com/match/2013mnmi_qm62">Quals 62</a></td>
+				<td colspan="2" class="red winner"><a href="http://www.thebluealliance.com/team/3297/2013">3297</a></td>
+				<td colspan="2" class="red winner"><a href="./The Automatons - Team 2823 (2013) - The Blue Alliance_files/The Automatons - Team 2823 (2013) - The Blue Alliance.htm">2823</a></td>
+				<td colspan="2" class="red winner"><a href="http://www.thebluealliance.com/team/2232/2013">2232</a></td>
+				<td colspan="2" class="blue"><a href="http://www.thebluealliance.com/team/3102/2013">3102</a></td>
+				<td colspan="2" class="blue"><a href="http://www.thebluealliance.com/team/2508/2013">2508</a></td>
+				<td colspan="2" class="blue"><a href="http://www.thebluealliance.com/team/4859/2013">4859</a></td>
+				<td class="redScore winner">75</td>
+				<td class="blueScore">58</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td rowspan="2"><a href="http://www.thebluealliance.com/match/2013mnmi_qm62">Quals 62</a></td>
+				<td class="red winner" colspan="4"><a href="http://www.thebluealliance.com/team/3297/2013">3297</a></td>
+				<td class="red winner" colspan="4"><a href="./The Automatons - Team 2823 (2013) - The Blue Alliance_files/The Automatons - Team 2823 (2013) - The Blue Alliance.htm">2823</a></td>
+				<td class="red winner" colspan="4"><a href="http://www.thebluealliance.com/team/2232/2013">2232</a></td>
+				<td class="redScore winner" colspan="2">75</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td class="blue" colspan="4"><a href="http://www.thebluealliance.com/team/3102/2013">3102</a></td>
+				<td class="blue" colspan="4"><a href="http://www.thebluealliance.com/team/2508/2013">2508</a></td>
+				<td class="blue" colspan="4"><a href="http://www.thebluealliance.com/team/4859/2013">4859</a></td>
+				<td class="blueScore" colspan="2">58</td>
+			</tr>
+			<tr class="visible-lg">
+				<td><a href="http://www.thebluealliance.com/match/2013mnmi_qm73">Quals 73</a></td>
+				<td colspan="2" class="red"><a href="http://www.thebluealliance.com/team/4667/2013">4667</a></td>
+				<td colspan="2" class="red"><a href="./The Automatons - Team 2823 (2013) - The Blue Alliance_files/The Automatons - Team 2823 (2013) - The Blue Alliance.htm">2823</a></td>
+				<td colspan="2" class="red"><a href="http://www.thebluealliance.com/team/3082/2013">3082</a></td>
+				<td colspan="2" class="blue winner"><a href="http://www.thebluealliance.com/team/2515/2013">2515</a></td>
+				<td colspan="2" class="blue winner"><a href="http://www.thebluealliance.com/team/3313/2013">3313</a></td>
+				<td colspan="2" class="blue winner"><a href="http://www.thebluealliance.com/team/3300/2013">3300</a></td>
+				<td class="redScore">18</td>
+				<td class="blueScore winner">60</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td rowspan="2"><a href="http://www.thebluealliance.com/match/2013mnmi_qm73">Quals 73</a></td>
+				<td class="red" colspan="4"><a href="http://www.thebluealliance.com/team/4667/2013">4667</a></td>
+				<td class="red" colspan="4"><a href="./The Automatons - Team 2823 (2013) - The Blue Alliance_files/The Automatons - Team 2823 (2013) - The Blue Alliance.htm">2823</a></td>
+				<td class="red" colspan="4"><a href="http://www.thebluealliance.com/team/3082/2013">3082</a></td>
+				<td class="redScore" colspan="2">18</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td class="blue winner" colspan="4"><a href="http://www.thebluealliance.com/team/2515/2013">2515</a></td>
+				<td class="blue winner" colspan="4"><a href="http://www.thebluealliance.com/team/3313/2013">3313</a></td>
+				<td class="blue winner" colspan="4"><a href="http://www.thebluealliance.com/team/3300/2013">3300</a></td>
+				<td class="blueScore winner" colspan="2">60</td>
+			</tr>
+			<tr class="visible-lg">
+				<td><a href="http://www.thebluealliance.com/match/2013mnmi_qm80">Quals 80</a></td>
+				<td colspan="2" class="red winner"><a href="http://www.thebluealliance.com/team/3299/2013">3299</a></td>
+				<td colspan="2" class="red winner"><a href="http://www.thebluealliance.com/team/2545/2013">2545</a></td>
+				<td colspan="2" class="red winner"><a href="http://www.thebluealliance.com/team/2538/2013">2538</a></td>
+				<td colspan="2" class="blue"><a href="http://www.thebluealliance.com/team/2855/2013">2855</a></td>
+				<td colspan="2" class="blue"><a href="http://www.thebluealliance.com/team/2879/2013">2879</a></td>
+				<td colspan="2" class="blue"><a href="./The Automatons - Team 2823 (2013) - The Blue Alliance_files/The Automatons - Team 2823 (2013) - The Blue Alliance.htm">2823</a></td>
+				<td class="redScore winner">75</td>
+				<td class="blueScore">27</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td rowspan="2"><a href="http://www.thebluealliance.com/match/2013mnmi_qm80">Quals 80</a></td>
+				<td class="red winner" colspan="4"><a href="http://www.thebluealliance.com/team/3299/2013">3299</a></td>
+				<td class="red winner" colspan="4"><a href="http://www.thebluealliance.com/team/2545/2013">2545</a></td>
+				<td class="red winner" colspan="4"><a href="http://www.thebluealliance.com/team/2538/2013">2538</a></td>
+				<td class="redScore winner" colspan="2">75</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td class="blue" colspan="4"><a href="http://www.thebluealliance.com/team/2855/2013">2855</a></td>
+				<td class="blue" colspan="4"><a href="http://www.thebluealliance.com/team/2879/2013">2879</a></td>
+				<td class="blue" colspan="4"><a href="./The Automatons - Team 2823 (2013) - The Blue Alliance_files/The Automatons - Team 2823 (2013) - The Blue Alliance.htm">2823</a></td>
+				<td class="blueScore" colspan="2">27</td>
+			</tr>
+			<tr class="key">
+				<th colspan="15">Quarterfinals</th>
+			</tr>
+			<tr class="visible-lg">
+				<td><a href="http://www.thebluealliance.com/match/2013mnmi_qf4m1">Quarters 4 Match 1</a></td>
+				<td colspan="2" class="red winner"><a href="http://www.thebluealliance.com/team/2705/2013">2705</a></td>
+				<td colspan="2" class="red winner"><a href="http://www.thebluealliance.com/team/2502/2013">2502</a></td>
+				<td colspan="2" class="red winner"><a href="http://www.thebluealliance.com/team/2501/2013">2501</a></td>
+				<td colspan="2" class="blue"><a href="./The Automatons - Team 2823 (2013) - The Blue Alliance_files/The Automatons - Team 2823 (2013) - The Blue Alliance.htm">2823</a></td>
+				<td colspan="2" class="blue"><a href="http://www.thebluealliance.com/team/2538/2013">2538</a></td>
+				<td colspan="2" class="blue"><a href="http://www.thebluealliance.com/team/3202/2013">3202</a></td>
+				<td class="redScore winner">76</td>
+				<td class="blueScore">54</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td rowspan="2"><a href="http://www.thebluealliance.com/match/2013mnmi_qf4m1">Quarters 4 Match 1</a></td>
+				<td class="red winner" colspan="4"><a href="http://www.thebluealliance.com/team/2705/2013">2705</a></td>
+				<td class="red winner" colspan="4"><a href="http://www.thebluealliance.com/team/2502/2013">2502</a></td>
+				<td class="red winner" colspan="4"><a href="http://www.thebluealliance.com/team/2501/2013">2501</a></td>
+				<td class="redScore winner" colspan="2">76</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td class="blue" colspan="4"><a href="./The Automatons - Team 2823 (2013) - The Blue Alliance_files/The Automatons - Team 2823 (2013) - The Blue Alliance.htm">2823</a></td>
+				<td class="blue" colspan="4"><a href="http://www.thebluealliance.com/team/2538/2013">2538</a></td>
+				<td class="blue" colspan="4"><a href="http://www.thebluealliance.com/team/3202/2013">3202</a></td>
+				<td class="blueScore" colspan="2">54</td>
+			</tr>
+			<tr class="visible-lg">
+				<td><a href="http://www.thebluealliance.com/match/2013mnmi_qf4m2">Quarters 4 Match 2</a></td>
+				<td colspan="2" class="red"><a href="http://www.thebluealliance.com/team/2501/2013">2501</a></td>
+				<td colspan="2" class="red"><a href="http://www.thebluealliance.com/team/2705/2013">2705</a></td>
+				<td colspan="2" class="red"><a href="http://www.thebluealliance.com/team/2502/2013">2502</a></td>
+				<td colspan="2" class="blue winner"><a href="./The Automatons - Team 2823 (2013) - The Blue Alliance_files/The Automatons - Team 2823 (2013) - The Blue Alliance.htm">2823</a></td>
+				<td colspan="2" class="blue winner"><a href="http://www.thebluealliance.com/team/3202/2013">3202</a></td>
+				<td colspan="2" class="blue winner"><a href="http://www.thebluealliance.com/team/2538/2013">2538</a></td>
+				<td class="redScore">102</td>
+				<td class="blueScore winner">106</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td rowspan="2"><a href="http://www.thebluealliance.com/match/2013mnmi_qf4m2">Quarters 4 Match 2</a></td>
+				<td class="red" colspan="4"><a href="http://www.thebluealliance.com/team/2501/2013">2501</a></td>
+				<td class="red" colspan="4"><a href="http://www.thebluealliance.com/team/2705/2013">2705</a></td>
+				<td class="red" colspan="4"><a href="http://www.thebluealliance.com/team/2502/2013">2502</a></td>
+				<td class="redScore" colspan="2">102</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td class="blue winner" colspan="4"><a href="./The Automatons - Team 2823 (2013) - The Blue Alliance_files/The Automatons - Team 2823 (2013) - The Blue Alliance.htm">2823</a></td>
+				<td class="blue winner" colspan="4"><a href="http://www.thebluealliance.com/team/3202/2013">3202</a></td>
+				<td class="blue winner" colspan="4"><a href="http://www.thebluealliance.com/team/2538/2013">2538</a></td>
+				<td class="blueScore winner" colspan="2">106</td>
+			</tr>
+			<tr class="visible-lg">
+				<td><a href="http://www.thebluealliance.com/match/2013mnmi_qf4m3">Quarters 4 Match 3</a></td>
+				<td colspan="2" class="red winner"><a href="http://www.thebluealliance.com/team/2502/2013">2502</a></td>
+				<td colspan="2" class="red winner"><a href="http://www.thebluealliance.com/team/2501/2013">2501</a></td>
+				<td colspan="2" class="red winner"><a href="http://www.thebluealliance.com/team/2705/2013">2705</a></td>
+				<td colspan="2" class="blue"><a href="http://www.thebluealliance.com/team/3202/2013">3202</a></td>
+				<td colspan="2" class="blue"><a href="./The Automatons - Team 2823 (2013) - The Blue Alliance_files/The Automatons - Team 2823 (2013) - The Blue Alliance.htm">2823</a></td>
+				<td colspan="2" class="blue"><a href="http://www.thebluealliance.com/team/2538/2013">2538</a></td>
+				<td class="redScore winner">99</td>
+				<td class="blueScore">73</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td rowspan="2"><a href="http://www.thebluealliance.com/match/2013mnmi_qf4m3">Quarters 4 Match 3</a></td>
+				<td class="red winner" colspan="4"><a href="http://www.thebluealliance.com/team/2502/2013">2502</a></td>
+				<td class="red winner" colspan="4"><a href="http://www.thebluealliance.com/team/2501/2013">2501</a></td>
+				<td class="red winner" colspan="4"><a href="http://www.thebluealliance.com/team/2705/2013">2705</a></td>
+				<td class="redScore winner" colspan="2">99</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td class="blue" colspan="4"><a href="http://www.thebluealliance.com/team/3202/2013">3202</a></td>
+				<td class="blue" colspan="4"><a href="./The Automatons - Team 2823 (2013) - The Blue Alliance_files/The Automatons - Team 2823 (2013) - The Blue Alliance.htm">2823</a></td>
+				<td class="blue" colspan="4"><a href="http://www.thebluealliance.com/team/2538/2013">2538</a></td>
+				<td class="blueScore" colspan="2">73</td>
+			</tr>
+		</tbody>
+	</table>
+	<h6 class="pull-right"><small>Courtesy of <a href="http://www.thebluealliance.com/">TBA</a></small></h6>
+</div>
+<div class="container">
+	<h1>2012 Season</h1>
+	<hr>
+	<div style="padding-bottom: 20px;" class="text-center">
+	<img class="img-rounded" src="robot/2012.jpg" width="275" height="275">
+	</div>
+	<table class="match-table">
+		<thead>
+			<tr class="key visible-lg">
+				<th>Match</th>
+				<th colspan="6">Red Alliance</th>
+				<th colspan="6">Blue Alliance</th>
+				<th colspan="2">Scores</th>
+			</tr>
+			<tr class="key hidden-lg">
+				<th rowspan="2">Match</th>
+				<th colspan="12">Red Alliance</th>
+				<th colspan="2">Red Score</th>
+			</tr>
+			<tr class="key hidden-lg">
+				<th colspan="12">Blue Alliance</th>
+				<th colspan="2">Blue Score</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class="key">
+				<th colspan="15">Qualifications</th>
+			</tr>
+			<tr class="visible-lg">
+				<td><a href="http://www.thebluealliance.com/match/2012mn2_qm7">Quals 7</a></td>
+				<td colspan="2" class="red"><a href="http://www.thebluealliance.com/team/4397/2012">4397</a></td>
+				<td colspan="2" class="red"><a href="http://www.thebluealliance.com/team/4360/2012">4360</a></td>
+				<td colspan="2" class="red"><a href="http://www.thebluealliance.com/team/1785/2012">1785</a></td>
+				<td colspan="2" class="blue winner"><a href="./The Automatons - Team 2823 (2012) - The Blue Alliance_files/The Automatons - Team 2823 (2012) - The Blue Alliance.htm">2823</a></td>
+				<td colspan="2" class="blue winner"><a href="http://www.thebluealliance.com/team/2526/2012">2526</a></td>
+				<td colspan="2" class="blue winner"><a href="http://www.thebluealliance.com/team/3275/2012">3275</a></td>
+				<td class="redScore">0</td>
+				<td class="blueScore winner">15</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td rowspan="2"><a href="http://www.thebluealliance.com/match/2012mn2_qm7">Quals 7</a></td>
+				<td class="red" colspan="4"><a href="http://www.thebluealliance.com/team/4397/2012">4397</a></td>
+				<td class="red" colspan="4"><a href="http://www.thebluealliance.com/team/4360/2012">4360</a></td>
+				<td class="red" colspan="4"><a href="http://www.thebluealliance.com/team/1785/2012">1785</a></td>
+				<td class="redScore" colspan="2">0</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td class="blue winner" colspan="4"><a href="./The Automatons - Team 2823 (2012) - The Blue Alliance_files/The Automatons - Team 2823 (2012) - The Blue Alliance.htm">2823</a></td>
+				<td class="blue winner" colspan="4"><a href="http://www.thebluealliance.com/team/2526/2012">2526</a></td>
+				<td class="blue winner" colspan="4"><a href="http://www.thebluealliance.com/team/3275/2012">3275</a></td>
+				<td class="blueScore winner" colspan="2">15</td>
+			</tr>
+			<tr class="visible-lg">
+				<td><a href="http://www.thebluealliance.com/match/2012mn2_qm19">Quals 19</a></td>
+				<td colspan="2" class="red"><a href="http://www.thebluealliance.com/team/1816/2012">1816</a></td>
+				<td colspan="2" class="red"><a href="http://www.thebluealliance.com/team/2525/2012">2525</a></td>
+				<td colspan="2" class="red"><a href="./The Automatons - Team 2823 (2012) - The Blue Alliance_files/The Automatons - Team 2823 (2012) - The Blue Alliance.htm">2823</a></td>
+				<td colspan="2" class="blue winner"><a href="http://www.thebluealliance.com/team/2654/2012">2654</a></td>
+				<td colspan="2" class="blue winner"><a href="http://www.thebluealliance.com/team/3293/2012">3293</a></td>
+				<td colspan="2" class="blue winner"><a href="http://www.thebluealliance.com/team/3699/2012">3699</a></td>
+				<td class="redScore">28</td>
+				<td class="blueScore winner">36</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td rowspan="2"><a href="http://www.thebluealliance.com/match/2012mn2_qm19">Quals 19</a></td>
+				<td class="red" colspan="4"><a href="http://www.thebluealliance.com/team/1816/2012">1816</a></td>
+				<td class="red" colspan="4"><a href="http://www.thebluealliance.com/team/2525/2012">2525</a></td>
+				<td class="red" colspan="4"><a href="./The Automatons - Team 2823 (2012) - The Blue Alliance_files/The Automatons - Team 2823 (2012) - The Blue Alliance.htm">2823</a></td>
+				<td class="redScore" colspan="2">28</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td class="blue winner" colspan="4"><a href="http://www.thebluealliance.com/team/2654/2012">2654</a></td>
+				<td class="blue winner" colspan="4"><a href="http://www.thebluealliance.com/team/3293/2012">3293</a></td>
+				<td class="blue winner" colspan="4"><a href="http://www.thebluealliance.com/team/3699/2012">3699</a></td>
+				<td class="blueScore winner" colspan="2">36</td>
+			</tr>
+			<tr class="visible-lg">
+				<td><a href="http://www.thebluealliance.com/match/2012mn2_qm25">Quals 25</a></td>
+				<td colspan="2" class="red winner"><a href="http://www.thebluealliance.com/team/2239/2012">2239</a></td>
+				<td colspan="2" class="red winner"><a href="http://www.thebluealliance.com/team/3883/2012">3883</a></td>
+				<td colspan="2" class="red winner"><a href="http://www.thebluealliance.com/team/2512/2012">2512</a></td>
+				<td colspan="2" class="blue"><a href="http://www.thebluealliance.com/team/3633/2012">3633</a></td>
+				<td colspan="2" class="blue"><a href="http://www.thebluealliance.com/team/3206/2012">3206</a></td>
+				<td colspan="2" class="blue"><a href="./The Automatons - Team 2823 (2012) - The Blue Alliance_files/The Automatons - Team 2823 (2012) - The Blue Alliance.htm">2823</a></td>
+				<td class="redScore winner">54</td>
+				<td class="blueScore">5</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td rowspan="2"><a href="http://www.thebluealliance.com/match/2012mn2_qm25">Quals 25</a></td>
+				<td class="red winner" colspan="4"><a href="http://www.thebluealliance.com/team/2239/2012">2239</a></td>
+				<td class="red winner" colspan="4"><a href="http://www.thebluealliance.com/team/3883/2012">3883</a></td>
+				<td class="red winner" colspan="4"><a href="http://www.thebluealliance.com/team/2512/2012">2512</a></td>
+				<td class="redScore winner" colspan="2">54</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td class="blue" colspan="4"><a href="http://www.thebluealliance.com/team/3633/2012">3633</a></td>
+				<td class="blue" colspan="4"><a href="http://www.thebluealliance.com/team/3206/2012">3206</a></td>
+				<td class="blue" colspan="4"><a href="./The Automatons - Team 2823 (2012) - The Blue Alliance_files/The Automatons - Team 2823 (2012) - The Blue Alliance.htm">2823</a></td>
+				<td class="blueScore" colspan="2">5</td>
+			</tr>
+			<tr class="visible-lg">
+				<td><a href="http://www.thebluealliance.com/match/2012mn2_qm32">Quals 32</a></td>
+				<td colspan="2" class="red"><a href="http://www.thebluealliance.com/team/3690/2012">3690</a></td>
+				<td colspan="2" class="red"><a href="http://www.thebluealliance.com/team/3023/2012">3023</a></td>
+				<td colspan="2" class="red"><a href="./The Automatons - Team 2823 (2012) - The Blue Alliance_files/The Automatons - Team 2823 (2012) - The Blue Alliance.htm">2823</a></td>
+				<td colspan="2" class="blue winner"><a href="http://www.thebluealliance.com/team/2175/2012">2175</a></td>
+				<td colspan="2" class="blue winner"><a href="http://www.thebluealliance.com/team/3042/2012">3042</a></td>
+				<td colspan="2" class="blue winner"><a href="http://www.thebluealliance.com/team/2525/2012">2525</a></td>
+				<td class="redScore">17</td>
+				<td class="blueScore winner">18</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td rowspan="2"><a href="http://www.thebluealliance.com/match/2012mn2_qm32">Quals 32</a></td>
+				<td class="red" colspan="4"><a href="http://www.thebluealliance.com/team/3690/2012">3690</a></td>
+				<td class="red" colspan="4"><a href="http://www.thebluealliance.com/team/3023/2012">3023</a></td>
+				<td class="red" colspan="4"><a href="./The Automatons - Team 2823 (2012) - The Blue Alliance_files/The Automatons - Team 2823 (2012) - The Blue Alliance.htm">2823</a></td>
+				<td class="redScore" colspan="2">17</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td class="blue winner" colspan="4"><a href="http://www.thebluealliance.com/team/2175/2012">2175</a></td>
+				<td class="blue winner" colspan="4"><a href="http://www.thebluealliance.com/team/3042/2012">3042</a></td>
+				<td class="blue winner" colspan="4"><a href="http://www.thebluealliance.com/team/2525/2012">2525</a></td>
+				<td class="blueScore winner" colspan="2">18</td>
+			</tr>
+			<tr class="visible-lg">
+				<td><a href="http://www.thebluealliance.com/match/2012mn2_qm49">Quals 49</a></td>
+				<td colspan="2" class="red winner"><a href="./The Automatons - Team 2823 (2012) - The Blue Alliance_files/The Automatons - Team 2823 (2012) - The Blue Alliance.htm">2823</a></td>
+				<td colspan="2" class="red winner"><a href="http://www.thebluealliance.com/team/3291/2012">3291</a></td>
+				<td colspan="2" class="red winner"><a href="http://www.thebluealliance.com/team/2472/2012">2472</a></td>
+				<td colspan="2" class="blue"><a href="http://www.thebluealliance.com/team/4182/2012">4182</a></td>
+				<td colspan="2" class="blue"><a href="http://www.thebluealliance.com/team/2989/2012">2989</a></td>
+				<td colspan="2" class="blue"><a href="http://www.thebluealliance.com/team/3130/2012">3130</a></td>
+				<td class="redScore winner">29</td>
+				<td class="blueScore">6</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td rowspan="2"><a href="http://www.thebluealliance.com/match/2012mn2_qm49">Quals 49</a></td>
+				<td class="red winner" colspan="4"><a href="./The Automatons - Team 2823 (2012) - The Blue Alliance_files/The Automatons - Team 2823 (2012) - The Blue Alliance.htm">2823</a></td>
+				<td class="red winner" colspan="4"><a href="http://www.thebluealliance.com/team/3291/2012">3291</a></td>
+				<td class="red winner" colspan="4"><a href="http://www.thebluealliance.com/team/2472/2012">2472</a></td>
+				<td class="redScore winner" colspan="2">29</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td class="blue" colspan="4"><a href="http://www.thebluealliance.com/team/4182/2012">4182</a></td>
+				<td class="blue" colspan="4"><a href="http://www.thebluealliance.com/team/2989/2012">2989</a></td>
+				<td class="blue" colspan="4"><a href="http://www.thebluealliance.com/team/3130/2012">3130</a></td>
+				<td class="blueScore" colspan="2">6</td>
+			</tr>
+			<tr class="visible-lg">
+				<td><a href="http://www.thebluealliance.com/match/2012mn2_qm56">Quals 56</a></td>
+				<td colspan="2" class="red"><a href="http://www.thebluealliance.com/team/3926/2012">3926</a></td>
+				<td colspan="2" class="red"><a href="http://www.thebluealliance.com/team/3290/2012">3290</a></td>
+				<td colspan="2" class="red"><a href="http://www.thebluealliance.com/team/2526/2012">2526</a></td>
+				<td colspan="2" class="blue winner"><a href="./The Automatons - Team 2823 (2012) - The Blue Alliance_files/The Automatons - Team 2823 (2012) - The Blue Alliance.htm">2823</a></td>
+				<td colspan="2" class="blue winner"><a href="http://www.thebluealliance.com/team/2177/2012">2177</a></td>
+				<td colspan="2" class="blue winner"><a href="http://www.thebluealliance.com/team/4260/2012">4260</a></td>
+				<td class="redScore">21</td>
+				<td class="blueScore winner">25</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td rowspan="2"><a href="http://www.thebluealliance.com/match/2012mn2_qm56">Quals 56</a></td>
+				<td class="red" colspan="4"><a href="http://www.thebluealliance.com/team/3926/2012">3926</a></td>
+				<td class="red" colspan="4"><a href="http://www.thebluealliance.com/team/3290/2012">3290</a></td>
+				<td class="red" colspan="4"><a href="http://www.thebluealliance.com/team/2526/2012">2526</a></td>
+				<td class="redScore" colspan="2">21</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td class="blue winner" colspan="4"><a href="./The Automatons - Team 2823 (2012) - The Blue Alliance_files/The Automatons - Team 2823 (2012) - The Blue Alliance.htm">2823</a></td>
+				<td class="blue winner" colspan="4"><a href="http://www.thebluealliance.com/team/2177/2012">2177</a></td>
+				<td class="blue winner" colspan="4"><a href="http://www.thebluealliance.com/team/4260/2012">4260</a></td>
+				<td class="blueScore winner" colspan="2">25</td>
+			</tr>
+			<tr class="visible-lg">
+				<td><a href="http://www.thebluealliance.com/match/2012mn2_qm68">Quals 68</a></td>
+				<td colspan="2" class="red"><a href="http://www.thebluealliance.com/team/3055/2012">3055</a></td>
+				<td colspan="2" class="red"><a href="./The Automatons - Team 2823 (2012) - The Blue Alliance_files/The Automatons - Team 2823 (2012) - The Blue Alliance.htm">2823</a></td>
+				<td colspan="2" class="red"><a href="http://www.thebluealliance.com/team/3691/2012">3691</a></td>
+				<td colspan="2" class="blue winner"><a href="http://www.thebluealliance.com/team/3848/2012">3848</a></td>
+				<td colspan="2" class="blue winner"><a href="http://www.thebluealliance.com/team/2883/2012">2883</a></td>
+				<td colspan="2" class="blue winner"><a href="http://www.thebluealliance.com/team/4225/2012">4225</a></td>
+				<td class="redScore">10</td>
+				<td class="blueScore winner">34</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td rowspan="2"><a href="http://www.thebluealliance.com/match/2012mn2_qm68">Quals 68</a></td>
+				<td class="red" colspan="4"><a href="http://www.thebluealliance.com/team/3055/2012">3055</a></td>
+				<td class="red" colspan="4"><a href="./The Automatons - Team 2823 (2012) - The Blue Alliance_files/The Automatons - Team 2823 (2012) - The Blue Alliance.htm">2823</a></td>
+				<td class="red" colspan="4"><a href="http://www.thebluealliance.com/team/3691/2012">3691</a></td>
+				<td class="redScore" colspan="2">10</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td class="blue winner" colspan="4"><a href="http://www.thebluealliance.com/team/3848/2012">3848</a></td>
+				<td class="blue winner" colspan="4"><a href="http://www.thebluealliance.com/team/2883/2012">2883</a></td>
+				<td class="blue winner" colspan="4"><a href="http://www.thebluealliance.com/team/4225/2012">4225</a></td>
+				<td class="blueScore winner" colspan="2">34</td>
+			</tr>
+			<tr class="visible-lg">
+				<td><a href="http://www.thebluealliance.com/match/2012mn2_qm78">Quals 78</a></td>
+				<td colspan="2" class="red winner"><a href="http://www.thebluealliance.com/team/4198/2012">4198</a></td>
+				<td colspan="2" class="red winner"><a href="http://www.thebluealliance.com/team/111/2012">111</a></td>
+				<td colspan="2" class="red winner"><a href="http://www.thebluealliance.com/team/4239/2012">4239</a></td>
+				<td colspan="2" class="blue"><a href="./The Automatons - Team 2823 (2012) - The Blue Alliance_files/The Automatons - Team 2823 (2012) - The Blue Alliance.htm">2823</a></td>
+				<td colspan="2" class="blue"><a href="http://www.thebluealliance.com/team/2847/2012">2847</a></td>
+				<td colspan="2" class="blue"><a href="http://www.thebluealliance.com/team/2709/2012">2709</a></td>
+				<td class="redScore winner">56</td>
+				<td class="blueScore">11</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td rowspan="2"><a href="http://www.thebluealliance.com/match/2012mn2_qm78">Quals 78</a></td>
+				<td class="red winner" colspan="4"><a href="http://www.thebluealliance.com/team/4198/2012">4198</a></td>
+				<td class="red winner" colspan="4"><a href="http://www.thebluealliance.com/team/111/2012">111</a></td>
+				<td class="red winner" colspan="4"><a href="http://www.thebluealliance.com/team/4239/2012">4239</a></td>
+				<td class="redScore winner" colspan="2">56</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td class="blue" colspan="4"><a href="./The Automatons - Team 2823 (2012) - The Blue Alliance_files/The Automatons - Team 2823 (2012) - The Blue Alliance.htm">2823</a></td>
+				<td class="blue" colspan="4"><a href="http://www.thebluealliance.com/team/2847/2012">2847</a></td>
+				<td class="blue" colspan="4"><a href="http://www.thebluealliance.com/team/2709/2012">2709</a></td>
+				<td class="blueScore" colspan="2">11</td>
+			</tr>
+			<tr class="visible-lg">
+				<td><a href="http://www.thebluealliance.com/match/2012mn2_qm85">Quals 85</a></td>
+				<td colspan="2" class="red"><a href="http://www.thebluealliance.com/team/4226/2012">4226</a></td>
+				<td colspan="2" class="red"><a href="http://www.thebluealliance.com/team/3026/2012">3026</a></td>
+				<td colspan="2" class="red"><a href="http://www.thebluealliance.com/team/3610/2012">3610</a></td>
+				<td colspan="2" class="blue winner"><a href="./The Automatons - Team 2823 (2012) - The Blue Alliance_files/The Automatons - Team 2823 (2012) - The Blue Alliance.htm">2823</a></td>
+				<td colspan="2" class="blue winner"><a href="http://www.thebluealliance.com/team/3926/2012">3926</a></td>
+				<td colspan="2" class="blue winner"><a href="http://www.thebluealliance.com/team/3883/2012">3883</a></td>
+				<td class="redScore">17</td>
+				<td class="blueScore winner">23</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td rowspan="2"><a href="http://www.thebluealliance.com/match/2012mn2_qm85">Quals 85</a></td>
+				<td class="red" colspan="4"><a href="http://www.thebluealliance.com/team/4226/2012">4226</a></td>
+				<td class="red" colspan="4"><a href="http://www.thebluealliance.com/team/3026/2012">3026</a></td>
+				<td class="red" colspan="4"><a href="http://www.thebluealliance.com/team/3610/2012">3610</a></td>
+				<td class="redScore" colspan="2">17</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td class="blue winner" colspan="4"><a href="./The Automatons - Team 2823 (2012) - The Blue Alliance_files/The Automatons - Team 2823 (2012) - The Blue Alliance.htm">2823</a></td>
+				<td class="blue winner" colspan="4"><a href="http://www.thebluealliance.com/team/3926/2012">3926</a></td>
+				<td class="blue winner" colspan="4"><a href="http://www.thebluealliance.com/team/3883/2012">3883</a></td>
+				<td class="blueScore winner" colspan="2">23</td>
+			</tr>
+			<tr class="key">
+				<th colspan="15">Quarterfinals</th>
+			</tr>
+			<tr class="visible-lg">
+				<td><a href="http://www.thebluealliance.com/match/2012mn2_qf4m1">Quarters 4 Match 1</a></td>
+				<td colspan="2" class="red winner"><a href="http://www.thebluealliance.com/team/3277/2012">3277</a></td>
+				<td colspan="2" class="red winner"><a href="./The Automatons - Team 2823 (2012) - The Blue Alliance_files/The Automatons - Team 2823 (2012) - The Blue Alliance.htm">2823</a></td>
+				<td colspan="2" class="red winner"><a href="http://www.thebluealliance.com/team/2709/2012">2709</a></td>
+				<td colspan="2" class="blue"><a href="http://www.thebluealliance.com/team/2175/2012">2175</a></td>
+				<td colspan="2" class="blue"><a href="http://www.thebluealliance.com/team/2549/2012">2549</a></td>
+				<td colspan="2" class="blue"><a href="http://www.thebluealliance.com/team/3130/2012">3130</a></td>
+				<td class="redScore winner">50</td>
+				<td class="blueScore">39</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td rowspan="2"><a href="http://www.thebluealliance.com/match/2012mn2_qf4m1">Quarters 4 Match 1</a></td>
+				<td class="red winner" colspan="4"><a href="http://www.thebluealliance.com/team/3277/2012">3277</a></td>
+				<td class="red winner" colspan="4"><a href="./The Automatons - Team 2823 (2012) - The Blue Alliance_files/The Automatons - Team 2823 (2012) - The Blue Alliance.htm">2823</a></td>
+				<td class="red winner" colspan="4"><a href="http://www.thebluealliance.com/team/2709/2012">2709</a></td>
+				<td class="redScore winner" colspan="2">50</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td class="blue" colspan="4"><a href="http://www.thebluealliance.com/team/2175/2012">2175</a></td>
+				<td class="blue" colspan="4"><a href="http://www.thebluealliance.com/team/2549/2012">2549</a></td>
+				<td class="blue" colspan="4"><a href="http://www.thebluealliance.com/team/3130/2012">3130</a></td>
+				<td class="blueScore" colspan="2">39</td>
+			</tr>
+			<tr class="visible-lg">
+				<td><a href="http://www.thebluealliance.com/match/2012mn2_qf4m2">Quarters 4 Match 2</a></td>
+				<td colspan="2" class="red winner"><a href="./The Automatons - Team 2823 (2012) - The Blue Alliance_files/The Automatons - Team 2823 (2012) - The Blue Alliance.htm">2823</a></td>
+				<td colspan="2" class="red winner"><a href="http://www.thebluealliance.com/team/2709/2012">2709</a></td>
+				<td colspan="2" class="red winner"><a href="http://www.thebluealliance.com/team/3277/2012">3277</a></td>
+				<td colspan="2" class="blue"><a href="http://www.thebluealliance.com/team/2549/2012">2549</a></td>
+				<td colspan="2" class="blue"><a href="http://www.thebluealliance.com/team/2175/2012">2175</a></td>
+				<td colspan="2" class="blue"><a href="http://www.thebluealliance.com/team/3130/2012">3130</a></td>
+				<td class="redScore winner">30</td>
+				<td class="blueScore">21</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td rowspan="2"><a href="http://www.thebluealliance.com/match/2012mn2_qf4m2">Quarters 4 Match 2</a></td>
+				<td class="red winner" colspan="4"><a href="./The Automatons - Team 2823 (2012) - The Blue Alliance_files/The Automatons - Team 2823 (2012) - The Blue Alliance.htm">2823</a></td>
+				<td class="red winner" colspan="4"><a href="http://www.thebluealliance.com/team/2709/2012">2709</a></td>
+				<td class="red winner" colspan="4"><a href="http://www.thebluealliance.com/team/3277/2012">3277</a></td>
+				<td class="redScore winner" colspan="2">30</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td class="blue" colspan="4"><a href="http://www.thebluealliance.com/team/2549/2012">2549</a></td>
+				<td class="blue" colspan="4"><a href="http://www.thebluealliance.com/team/2175/2012">2175</a></td>
+				<td class="blue" colspan="4"><a href="http://www.thebluealliance.com/team/3130/2012">3130</a></td>
+				<td class="blueScore" colspan="2">21</td>
+			</tr>
+			<tr class="key">
+				<th colspan="15">Semifinals</th>
+			</tr>
+			<tr class="visible-lg">
+				<td><a href="http://www.thebluealliance.com/match/2012mn2_sf2m1">Semis 2 Match 1</a></td>
+				<td colspan="2" class="red winner"><a href="http://www.thebluealliance.com/team/111/2012">111</a></td>
+				<td colspan="2" class="red winner"><a href="http://www.thebluealliance.com/team/4226/2012">4226</a></td>
+				<td colspan="2" class="red winner"><a href="http://www.thebluealliance.com/team/2512/2012">2512</a></td>
+				<td colspan="2" class="blue"><a href="http://www.thebluealliance.com/team/2709/2012">2709</a></td>
+				<td colspan="2" class="blue"><a href="http://www.thebluealliance.com/team/3277/2012">3277</a></td>
+				<td colspan="2" class="blue"><a href="./The Automatons - Team 2823 (2012) - The Blue Alliance_files/The Automatons - Team 2823 (2012) - The Blue Alliance.htm">2823</a></td>
+				<td class="redScore winner">66</td>
+				<td class="blueScore">19</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td rowspan="2"><a href="http://www.thebluealliance.com/match/2012mn2_sf2m1">Semis 2 Match 1</a></td>
+				<td class="red winner" colspan="4"><a href="http://www.thebluealliance.com/team/111/2012">111</a></td>
+				<td class="red winner" colspan="4"><a href="http://www.thebluealliance.com/team/4226/2012">4226</a></td>
+				<td class="red winner" colspan="4"><a href="http://www.thebluealliance.com/team/2512/2012">2512</a></td>
+				<td class="redScore winner" colspan="2">66</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td class="blue" colspan="4"><a href="http://www.thebluealliance.com/team/2709/2012">2709</a></td>
+				<td class="blue" colspan="4"><a href="http://www.thebluealliance.com/team/3277/2012">3277</a></td>
+				<td class="blue" colspan="4"><a href="./The Automatons - Team 2823 (2012) - The Blue Alliance_files/The Automatons - Team 2823 (2012) - The Blue Alliance.htm">2823</a></td>
+				<td class="blueScore" colspan="2">19</td>
+			</tr>
+			<tr class="visible-lg">
+				<td><a href="http://www.thebluealliance.com/match/2012mn2_sf2m2">Semis 2 Match 2</a></td>
+				<td colspan="2" class="red winner"><a href="http://www.thebluealliance.com/team/4226/2012">4226</a></td>
+				<td colspan="2" class="red winner"><a href="http://www.thebluealliance.com/team/2512/2012">2512</a></td>
+				<td colspan="2" class="red winner"><a href="http://www.thebluealliance.com/team/111/2012">111</a></td>
+				<td colspan="2" class="blue"><a href="http://www.thebluealliance.com/team/3277/2012">3277</a></td>
+				<td colspan="2" class="blue"><a href="./The Automatons - Team 2823 (2012) - The Blue Alliance_files/The Automatons - Team 2823 (2012) - The Blue Alliance.htm">2823</a></td>
+				<td colspan="2" class="blue"><a href="http://www.thebluealliance.com/team/2709/2012">2709</a></td>
+				<td class="redScore winner">65</td>
+				<td class="blueScore">27</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td rowspan="2"><a href="http://www.thebluealliance.com/match/2012mn2_sf2m2">Semis 2 Match 2</a></td>
+				<td class="red winner" colspan="4"><a href="http://www.thebluealliance.com/team/4226/2012">4226</a></td>
+				<td class="red winner" colspan="4"><a href="http://www.thebluealliance.com/team/2512/2012">2512</a></td>
+				<td class="red winner" colspan="4"><a href="http://www.thebluealliance.com/team/111/2012">111</a></td>
+				<td class="redScore winner" colspan="2">65</td>
+			</tr>
+			<tr class="hidden-lg">
+				<td class="blue" colspan="4"><a href="http://www.thebluealliance.com/team/3277/2012">3277</a></td>
+				<td class="blue" colspan="4"><a href="./The Automatons - Team 2823 (2012) - The Blue Alliance_files/The Automatons - Team 2823 (2012) - The Blue Alliance.htm">2823</a></td>
+				<td class="blue" colspan="4"><a href="http://www.thebluealliance.com/team/2709/2012">2709</a></td>
+				<td class="blueScore" colspan="2">27</td>
+			</tr>
+		</tbody>
+	</table>
+	<h6 class="pull-right"><small>Courtesy of <a href="http://www.thebluealliance.com/">TBA</a></small></h6>
+</div>
+</div>
+</div>
+<!--#include virtual="footer.shtml"--> 
 <script>
 (function() {
 var header = new Headroom(document.querySelector("#header"), {
