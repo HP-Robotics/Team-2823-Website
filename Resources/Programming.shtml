@@ -28,6 +28,20 @@ ga('send', 'pageview');
 		<p>Programming Resources</p>
 	</div>
 </div>
+<div class="container">
+	<h1>Updates</h1>
+	<hr>
+	<p><a href="http://www.ni.com/download/labview-for-frc-14.0/4515/en">LabView IDE + Updates</a></p>
+	<p><a href="http://www.ni.com/download/first-robotics-software-2014/4546/en/">LabView Updater <strong>(Required for ALL teams)</strong></a></p>
+	<p><a href="2014 Docs/IDE Updates/cupdate.zip">C++ IDE Update</a></p>
+	<p><a href="2014 Docs/IDE Updates/javaupdate.zip">Java IDE Update</a></p>
+</div>
+<div class="container">
+	<h1>Links</h1>
+	<hr>
+	<p><a href="http://wpilib.screenstepslive.com/s/3120">2014 Development Environment Installation Instructions</a></p>
+	<p><a href="https://github.com/Team-2823">Our GitHub Organization</a></p>
+</div>
 <!--#include virtual="/footer.shtml"-->
 <script>
 (function() {

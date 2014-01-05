@@ -31,13 +31,13 @@ ga('send', 'pageview');
 <div class="container">
 	<h1>Links</h1>
 	<hr>
-	<p><a href="/2014 Docs/gamemanual.pdf">2014 Game Manual - Revision B</a></p>
+	<p><a href="2014 Docs/gamemanual.pdf">2014 Game Manual - Revision B</a></p>
 	<p><a href="2014 Docs/ballguide.pdf">Ball Maintenance Guide</a></p>
 	<h1>Checklists</h1>
 	<hr>
-	<p><a href="/2014 Docs/Checklists/greentote.pdf">Green Tote Checklist</a></p>
-	<p><a href="/2014 Docs/Checklists/blacktote.pdf">Black Tote Checklist</a></p>
-	<p><a href="/2014 Docs/Checklists/adm.pdf">AndyMark Tote Checklist</a></p>
+	<p><a href="2014 Docs/Checklists/greentote.pdf">Green Tote Checklist</a></p>
+	<p><a href="2014 Docs/Checklists/blacktote.pdf">Black Tote Checklist</a></p>
+	<p><a href="2014 Docs/Checklists/adm.pdf">AndyMark Tote Checklist</a></p>
 </div>
 <div class="container">
 	<h1>Videos</h1>
