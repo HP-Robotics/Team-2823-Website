@@ -31,7 +31,6 @@ ga('send', 'pageview');
 <div class="container">
 	<h1>Links</h1>
 	<hr>
-	<p>Some links that might help your business team.</p>
 	<p><a href="http://www.usfirst.org/roboticsprograms/first-fundraising-toolkit">Fundraising Toolkit</a></p>
 </div>
 <!--#include virtual="/footer.shtml"-->
