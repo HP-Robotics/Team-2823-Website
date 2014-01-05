@@ -57,7 +57,7 @@ ga('send', 'pageview');
 	</div>
 </div>
 <div class="container">
-<hr>
+	<hr>
 </div>
 <div class="container">
 	<div class="col-sm-6">
@@ -83,7 +83,7 @@ ga('send', 'pageview');
 	</div>
 </div>
 <div class="container">
-<hr>
+	<hr>
 </div>
 <div class="container">
 	<div class="col-sm-6">
@@ -97,7 +97,7 @@ ga('send', 'pageview');
 		</div>
 	</div>
 	<div class="col-sm-6">
-	<div class="panel panel-default panel-primary">
+		<div class="panel panel-default panel-primary">
 			<div class="panel-body">
 				<p>Ellery B.</p>
 				<p>Taylor K.</p>
@@ -107,11 +107,11 @@ ga('send', 'pageview');
 	</div>
 </div>
 <div class="container">
-<hr>
+	<hr>
 </div>
 <div class="container">
 	<div class="col-sm-6">
-			<div class="panel panel-default panel-primary">
+		<div class="panel panel-default panel-primary">
 			<div class="panel-body">
 				<p>Audrey D.</p>
 				<p>Eva C.</p>
@@ -132,33 +132,33 @@ ga('send', 'pageview');
 	</div>
 </div>
 <div class="container">
-<hr>
+	<hr>
 </div>
 <div class="container">
-	<div class="col-sm-6">
-		<div class="panel panel-default panel-primary">
-			<div class="panel-heading" align="center">
-				<h1>Mentors</h1>
-			</div>
-			<div class="panel-body">
-				<p>We Automaton Mentors are a lazy bunch.  We spend the fall helping the team members learn the skills needed for team management & robot building success, then sit back and relax while the team builds its next awesome robot and competes successfully!  In true Minnesota style, we occasionally offer advice such as “a lotta guys might not adjust those hot electronics with a screwdriver”</p>
-			</div>
+<div class="col-sm-6">
+	<div class="panel panel-default panel-primary">
+		<div class="panel-heading" align="center">
+			<h1>Mentors</h1>
+		</div>
+		<div class="panel-body">
+			<p>We Automaton Mentors are a lazy bunch.  We spend the fall helping the team members learn the skills needed for team management & robot building success, then sit back and relax while the team builds its next awesome robot and competes successfully!  In true Minnesota style, we occasionally offer advice such as “a lotta guys might not adjust those hot electronics with a screwdriver”</p>
 		</div>
 	</div>
-	<div class="col-sm-6">
-			<div class="panel panel-default panel-primary">
-			<div class="panel-body">
-				<h5>Ryan Mulso <small>Highland Park Senior High</small></h5>
-				<h5>Jeremy White <small>CodeWeavers</small></h5>
-				<h5>John Farley <small>Boston Scientific</small></h5>
-				<h5>Zachary Hurst <small>3M</small></h5>
-				<h5>Justin Wilhelm <small>3M</small></h5>
-				<h5>Michael Ludwig <small>University of Minnesota</small></h5>
-				<h5>Julie Kmoch <small>Adobe Systems</small></h5>
-				<h5>Doug Kmoch <small>Parent</small></h5>
-				<h5>Wayne Ziebell <small>Mack Engineering</small></h5>
-			</div>
-			<div class="panel-footer"><b>Leader: </b>Lynn Ihlenfeldt</div>
+</div>
+<div class="col-sm-6">
+	<div class="panel panel-default panel-primary">
+		<div class="panel-body">
+			<h5>Ryan Mulso <small>Highland Park Senior High</small></h5>
+			<h5>Jeremy White <small>CodeWeavers</small></h5>
+			<h5>John Farley <small>Boston Scientific</small></h5>
+			<h5>Zachary Hurst <small>3M</small></h5>
+			<h5>Justin Wilhelm <small>3M</small></h5>
+			<h5>Michael Ludwig <small>University of Minnesota</small></h5>
+			<h5>Julie Kmoch <small>Adobe Systems</small></h5>
+			<h5>Doug Kmoch <small>Parent</small></h5>
+			<h5>Wayne Ziebell <small>Mack Engineering</small></h5>
+		</div>
+		<div class="panel-footer"><b>Leader: </b>Lynn Ihlenfeldt</div>
 	</div>
 </div>
 <!--#include virtual="footer.shtml"--> 
