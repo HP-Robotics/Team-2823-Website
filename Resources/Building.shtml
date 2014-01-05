@@ -29,20 +29,21 @@ ga('send', 'pageview');
 	</div>
 </div>
 <div class="container">
-			<h1>Schematics</h1>
-			<hr>
-			<p>You can build the field elements using these schematics.</p>
-			<p><a href="2014 Docs/Field Drawings/arenalayout.pdf">Arena Layout Marking</a></p>
-			<p><a href="2014 Docs/Field Drawings/fielddrawings.pdf">Field Drawings</a></p>
-			<p><a href="2014 Docs/Field Drawings/highgoal.pdf">High Goal</a></p>
-			<p><a href="2014 Docs/Field Drawings/hpbarrier.pdf">Human-Player Barrier</a></p>
-			<p><a href="2014 Docs/Field Drawings/lowgoad.pdf">Low Goal</a></p>
-			<p><a href="2014 Docs/Field Drawings/pedastal.pdf">Pedastal</a></p>
-			<p><a href="2014 Docs/Field Drawings/teamelements.pdf">Team Elements</a></p>
-			<p><a href="2014 Docs/Field Drawings/truss.pdf">Truss</a></p>
-			<p><a href="2014 Docs/Field Drawings/visiontarget.pdf">Vision Target</a></p>
+	<h1>Schematics</h1>
+	<hr>
+	<p>You can build the field elements using these schematics.</p>
+	<p><a href="2014 Docs/Field Drawings/arenalayout.pdf">Arena Layout Marking</a></p>
+	<p><a href="2014 Docs/Field Drawings/fielddrawings.pdf">Field Drawings</a></p>
+	<p><a href="2014 Docs/Field Drawings/highgoal.pdf">High Goal</a></p>
+	<p><a href="2014 Docs/Field Drawings/hpbarrier.pdf">Human-Player Barrier</a></p>
+	<p><a href="2014 Docs/Field Drawings/lowgoad.pdf">Low Goal</a></p>
+	<p><a href="2014 Docs/Field Drawings/pedastal.pdf">Pedastal</a></p>
+	<p><a href="2014 Docs/Field Drawings/teamelements.pdf">Team Elements</a></p>
+	<p><a href="2014 Docs/Field Drawings/truss.pdf">Truss</a></p>
+	<p><a href="2014 Docs/Field Drawings/visiontarget.pdf">Vision Target</a></p>
+	<p><a href="http://www.usfirst.org/roboticsprograms/frc/mechcanicalresources">Additional Information</a></p>
 </div>
-<!--#include virtual="/footer.shtml"-->
+<!--#include virtual="/footer.shtml"--> 
 <script>
 (function() {
 var header = new Headroom(document.querySelector("#header"), {

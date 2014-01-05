@@ -24,12 +24,20 @@ ga('send', 'pageview');
 <!--#include virtual="/navbar.shtml"-->
 <div class="container">
 	<div class="jumbotron">
-		<h1>For Other Teams</h1>
-		<p>Resources for Other Teams</p>
+		<h1>General Resources</h1>
+		<p>Resources for the entire team</p>
 	</div>
 </div>
 <div class="container">
-<a href="2014 Docs/gamemanual.php">2014 Game Manual - Revision B</a>
+	<h1>Links</h1>
+	<hr>
+	<p><a href="2014 Docs/gamemanual.pdf">2014 Game Manual - Revision B</a></p>
+	<p><a href="2014 Docs/ballguide.pdf">Ball Maintenance Guide</a></p>
+</div>
+<div class="container">
+	<h1>Videos</h1>
+	<hr>
+	<iframe class="text-center" width="853" height="480" src="http://www.youtube.com/embed/videoseries?list=PLZT9pIgNOV6bScUlOhxxejG_rqTbhru_5" frameborder="0" allowfullscreen></iframe>
 </div>
 <!--#include virtual="/footer.shtml"-->
 <script>
