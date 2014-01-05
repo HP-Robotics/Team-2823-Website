@@ -31,7 +31,6 @@ body {
 			<?php get_template_part( 'entry' ); ?>
 			<?php comments_template('', true); ?>
 			<?php endwhile; endif; ?>
-			<?php get_template_part( 'nav', 'below-single' ); ?>
 		</article>
 	</div>
 </div>
