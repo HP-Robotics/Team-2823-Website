@@ -11,7 +11,7 @@
 						<li><a href="http://www.highland-2823.com/Team.shtml"><span class="glyphicon glyphicon-user"></span> Team</a></li>
 						<li><a href="http://www.highland-2823.com/Robot.shtml"><span class="glyphicon glyphicon-link"></span> The Robot</a></li>
 						<li><a href="http://www.highland-2823.com/Sponsors.shtml"><span class="glyphicon glyphicon-thumbs-up"></span> Sponsors</a></li>
-						<li><a href="http://www.highland-2823.com/FIRST.shtml"><span class=""></span> FIRST</a></li>
+						<li><a href="http://www.highland-2823.com/FIRST.shtml"><span class="glyphicon glyphicon-book"></span> FIRST</a></li>
 					</ul>
 				</li>
 				<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Media <b class="caret"></b></a>
@@ -22,7 +22,7 @@
 				</li>
 				<li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
 					<ul class="dropdown-menu">
-						<li><a href="http://www.highland-2823.com/Resources/General.shtml"><span class="glyphicon glyphicon-asterisk"></span> General</a></li>
+						<li><a href="http://www.highland-2823.com/Resources/General.shtml"><span class="glyphicon glyphicon-bullhorn"></span> General</a></li>
 						<li><a href="http://www.highland-2823.com/Resources/Programming.shtml"><span class="glyphicon glyphicon-asterisk"></span> Programming</a></li>
 						<li><a href="http://www.highland-2823.com/Resources/Business.shtml"><span class="glyphicon glyphicon-briefcase"></span> Business</a></li>
 						<li><a href="http://www.highland-2823.com/Resources/CAD.shtml"><span class="glyphicon glyphicon-pencil"></span> CAD</a></li>
