@@ -39,25 +39,7 @@ ga('send', 'pageview');
 	</div>
 	<div id="links" class="text-center"> <a href="images/1.jpg"> <img src="images/thumbs/1.jpg"> </a> <a href="images/2.jpg"> <img src="images/thumbs/2.jpg"> </a> <a href="images/3.jpg"> <img src="images/thumbs/3.jpg"> </a> <a href="images/4.jpg"> <img src="images/thumbs/4.jpg"> </a> <a href="images/6.jpg"> <img src="images/thumbs/6.jpg"> </a> <a href="images/7.jpg"> <img src="images/thumbs/7.jpg"> </a> <a href="images/8.jpg"> <img src="images/thumbs/8.jpg"> </a> <a href="images/9.jpg"> <img src="images/thumbs/9.jpg"> </a> <a href="images/10.jpg"> <img src="images/thumbs/10.jpg"> </a> <a href="images/11.jpg"> <img src="images/thumbs/11.jpg"> </a> <a href="images/12.jpg"> <img src="images/thumbs/2.jpg"> </a> <a href="images/13.jpg"> <img src="images/thumbs/13.jpg"> </a> <a href="images/14.jpg"> <img src="images/thumbs/14.jpg"> </a> <a href="images/15.jpg"> <img src="images/thumbs/15.jpg"> </a> <a href="images/16.jpg"> <img src="images/thumbs/16.jpg"> </a> <a href="images/17.jpg"> <img src="images/thumbs/17.jpg"> </a> <a href="images/18.jpg"> <img src="images/thumbs/18.jpg"> </a> <a href="images/19.jpg"> <img src="images/thumbs/19.jpg"> </a> <a href="images/20.jpg"> <img src="images/thumbs/20.jpg"> </a> <a href="images/21.jpg"> <img src="images/thumbs/21.jpg"> </a> <a href="images/22.jpg"> <img src="images/thumbs/22.jpg"> </a> <a href="images/23.jpg"> <img src="images/thumbs/23.jpg"> </a> <a href="images/24.jpg"> <img src="images/thumbs/24.jpg"> </a> <a href="images/25.jpg"> <img src="images/thumbs/25.jpg"> </a> <a href="images/26.jpg"> <img src="images/thumbs/26.jpg"> </a> <a href="images/27.jpg"> <img src="images/thumbs/27.jpg"> </a> <a href="images/28.jpg"> <img src="images/thumbs/28.jpg"> </a> </div>
 </div>
-<hr>
-<div class="container"> <a href="https://www.facebook.com/pages/The-Automatons/504175326325495"><img src="social/facebook.png" width="100" height="100"></a>
-	<div style="padding-top: 20px;" id="movers-row">
-		<a href="https://plus.google.com/105457037277552965514/posts"><div><img src="social/googleplus.png" width="100" height="100"></div></a>
-		<a href="https://twitter.com/FRC2823"><div><img src="social/twitter.png" width="100" height="100"></div></a>
-		<a href="https://www.youtube.com/user/highland2823"><div><img src="social/youtube.png" width="100" height="100"></div></a>
-	</div>
-</div>
-<br>
-<div class="container">
-	<div class="row contact-footer">
-		<div id="footer">
-			<div class = "container">
-				<p class="text-muted credit pull-left">&copy; The Automatons 2013</p>
-				<p class="text-muted credit pull-right"><a href="http://www.highland-2823.com/wp-admin">Login</a></p>
-			</div>
-		</div>
-	</div>
-</div>
+<!--#include virtual="footer.shtml"-->
 <script>
 (function() {
 var header = new Headroom(document.querySelector("#header"), {
