@@ -31,6 +31,7 @@
 					</ul>
 				</li>
 				<li><a href="http://www.highland-2823.com/Contact.shtml">Contact</a></li>
+				<li><button class="btn btn-primary navbar-btn" value="Page" onclick="location.href='http://www.highland-2823.com/wp-admin';">Log In</button></li>
 			</ul>
 		</div>
 	</div>
