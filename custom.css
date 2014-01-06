@@ -1,4 +1,7 @@
 @charset "utf-8";
+.panel h1 {
+	margin-top: 5px;
+}
 #movers-row {
 	margin: -120px 0 0 120px;
 }

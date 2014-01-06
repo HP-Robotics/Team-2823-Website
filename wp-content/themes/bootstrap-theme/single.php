@@ -1,19 +1,23 @@
 <?php get_header(); ?>
-<div clas="container">
-	<div id="content">
-		<div class="row">
-			<div class="container">
-				<div class="container">
-					<article id="content">
-						<?php get_template_part( 'nav', 'above-single' ); ?>
-						<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-						<?php get_template_part( 'entry' ); ?>
-						<p class="text-center"><a href="http://www.highland-2823.com">Back to Home</a></p>
-						<?php comments_template('', true); ?>
-						<?php endwhile; endif; ?>
-						<?php get_template_part( 'nav', 'below-single' ); ?>
-					</article>
-				</div>
+<div class="container">
+	<div class="row">
+		<div class="col-md-9">
+			<div class="panel panel-default panel-body">
+			<?php while(have_posts()) : the_post(); ?>
+				<h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
+				<p class="text-muted">Posted by <?php the_author(); ?> on <?php the_time('F j, Y g:i a'); ?></p>
+				<p><?php the_content(''); ?></p>
+			<?php endwhile; wp_reset_query(); ?>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="list-group">
+				<?php query_posts('posts_per_page=8'); while(have_posts()) : the_post(); ?>
+					<a class="list-group-item" href="<?php the_permalink(); ?>">
+					<h4 class="list-group-item-heading"><?php the_title(); ?></h4>
+					<p class="list-group-item-text text-muted">Posted by <?php the_author(); ?> on <?php the_time('F j, Y g:i a'); ?></p>
+					</a>
+				<?php endwhile; wp_reset_query(); ?>
 			</div>
 		</div>
 	</div>

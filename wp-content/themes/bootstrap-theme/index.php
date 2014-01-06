@@ -26,12 +26,24 @@ body {
 			<a style="cursor: pointer" onclick="javascript: window.location = 'http://www.highland-2823.com/potato.html';"><img class="pull-right" src="img/blank.png" width="10" height="10"/></a>
 			<p>You'll find updates from the team here</p>
 		</div>
-		<article id="content">
-			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-			<?php get_template_part( 'entry' ); ?>
-			<?php comments_template('', true); ?>
-			<?php endwhile; endif; ?>
-		</article>
 	</div>
+	<div class="container">
+		<div class="panel panel-default panel-body">
+			<div class="row">
+				<div class="col-md-2">
+					<ul class="nav nav-pills nav-stacked">
+						<?php wp_list_categories('orderby=name&title_li=') ?>
+					</ul>
+				</div>
+				<div class="col-md-10">
+					<?php while(have_posts()) : the_post(); ?>
+						<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+						<p><?php the_excerpt(); ?></p>
+						<p class="text-muted">Posted by <?php the_author(); ?> on <?php the_time('F j, Y g:i a'); ?></p>
+					<?php endwhile; wp_reset_query(); ?>
+				</div>
+			</div>
+		</div>
+		</div>
 </div>
 <?php get_footer(); ?>
