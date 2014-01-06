@@ -3,9 +3,12 @@
 body {
 	padding-top: 0px !important;
 }
+.carousel-bottom-padding-remove {
+	margin-bottom: 10px;
+}
 </style>
 <div id="content">
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	<div id="myCarousel" class="carousel slide carousel-bottom-padding-remove" data-ride="carousel">
 		<div class="carousel-inner">
 			<div class="item active"> <img class="hidden-xs hidden-sm" src="images/Front1desktop.jpg"> <img class="hidden-lg hidden-md" src="images/Front1mobile.jpg">
 				<div class="container">
@@ -21,11 +24,8 @@ body {
 		</div>
 	</div>
 	<div class="container">
-		<div class="jumbotron">
-			<h1>News</h1>
-			<a style="cursor: pointer" onclick="javascript: window.location = 'http://www.highland-2823.com/potato.html';"><img class="pull-right" src="img/blank.png" width="10" height="10"/></a>
-			<p>You'll find updates from the team here</p>
-		</div>
+		<h1>News</h1>
+		<hr>
 	</div>
 	<div class="container">
 		<div class="panel panel-default panel-body">
