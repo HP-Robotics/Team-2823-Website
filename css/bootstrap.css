@@ -4325,6 +4325,26 @@ textarea.input-group-sm > .input-group-btn > .btn {
   margin-bottom: 20px;
 }
 
+.navbar:before,
+.navbar:after {
+  display: table;
+  content: " ";
+}
+
+.navbar:after {
+  clear: both;
+}
+
+.navbar:before,
+.navbar:after {
+  display: table;
+  content: " ";
+}
+
+.navbar:after {
+  clear: both;
+}
+
 @media (min-width: 768px) {
   .navbar {
     border-radius: 4px;
@@ -4631,7 +4651,9 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-nav > li > .dropdown-menu {
-  margin-top: 0;
+  border: none;
+  margin: none;
+  box-shadow:0px 0px 0px black;
   border-top-right-radius: 0;
   border-top-left-radius: 0;
 }
