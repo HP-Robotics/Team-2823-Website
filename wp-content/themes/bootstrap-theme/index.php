@@ -16,7 +16,7 @@ body {
 						<div class="row">
 							<h1>Welcome to Highland Park Robotics</h1>
 							<p>Highland Park Team 2823 - The Automatons - is a team of Highland students that compete in the FIRST Robotics Competition league each year.  The team meets Tuesday, Thursday, and Saturday, while we prepare for the competition.</p>
-							<p><a class="btn btn-lg btn-primary" href="Team.html" role="button">Learn More</a></p>
+							<p><a class="btn btn-lg btn-default" href="Team.html" role="button">Learn more</a></p>
 						</div>
 					</div>
 				</div>
