@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="http://www.highland-2823.com/css/navbar.css">
 <header data-headroom data-tolerance="5" data-offset="205" data-classes='{"initial":"animated","pinned":"slideDown","unpinned":"slideUp"}'></header>
 <div class="navbar-custom navbar navbar-fixed-top navbar1 animated slideInDown" role="navigation">
 	<div class="container">
