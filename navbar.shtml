@@ -1,5 +1,5 @@
 <header data-headroom data-tolerance="5" data-offset="205" data-classes='{"initial":"animated","pinned":"slideDown","unpinned":"slideUp"}'></header>
-<div class="navbar-inverse navbar navbar-fixed-top navbar1 animated slideInDown" role="navigation">
+<div class="navbar-custom navbar navbar-fixed-top navbar1 animated slideInDown" role="navigation">
 	<div class="container">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
