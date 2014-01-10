@@ -36,9 +36,14 @@ body {
 					</ul>
 				</div>
 				<div class="col-md-10">
+				<?php function remove_more_link_scroll( $link ) {
+	$link = preg_replace( '|#more-[0-9]+|', '', $link );
+	return $link;
+}
+add_filter( 'the_content_more_link', 'remove_more_link_scroll' ); ?>
 					<?php while(have_posts()) : the_post(); ?>
 						<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-						<p><?php the_excerpt(); ?></p>
+						<?php the_content('Continue Reading'); ?>
 						<p class="text-muted">Posted by <?php the_author(); ?> on <?php the_time('F j, Y g:i a'); ?></p>
 					<?php endwhile; wp_reset_query(); ?>
 				</div>

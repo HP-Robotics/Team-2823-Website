@@ -1,22 +1,4 @@
-<hr>
-<div class="container"> <a href="https://www.facebook.com/pages/The-Automatons/504175326325495"><img src="social/facebook.png" width="100" height="100"></a>
-	<div style="padding-top: 20px;" id="movers-row">
-		<a href="https://plus.google.com/105457037277552965514/posts"><div><img src="social/googleplus.png" width="100" height="100"></div></a>
-		<a href="https://twitter.com/FRC2823"><div><img src="social/twitter.png" width="100" height="100"></div></a>
-		<a href="https://www.youtube.com/user/highland2823"><div><img src="social/youtube.png" width="100" height="100"></div></a>
-	</div>
-</div>
-<br>
-<div class="container">
-	<div class="row contact-footer">
-		<div id="footer">
-			<div class = "container">
-				<p class="text-muted credit pull-left">&copy; The Automatons 2013</p>
-				<p class="text-muted credit pull-right"><a href="http://www.highland-2823.com/wp-admin">Login</a></p>
-			</div>
-		</div>
-	</div>
-</div>
+<?php echo file_get_contents('footer.shtml'); ?>
 <script>
 (function() {
 var header = new Headroom(document.querySelector("#header"), {
