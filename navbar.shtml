@@ -1,4 +1,5 @@
-<header data-headroom data-tolerance="5" data-offset="205" data-classes='{"initial":"animated","pinned":"slideDown","unpinned":"slideUp"}'></header>
+<header data-headroom data-tolerance="5" data-offset="205" data-classes='{"initial":"animated","pinned":"slideDown","unpinned":"slideUp"}' id="header">
+<script src="http://www.highland-2823.com/js/jQuery.headroom.js"></script>
 <div class="navbar-custom navbar navbar-fixed-top navbar1 animated slideInDown" role="navigation">
 	<div class="container">
 		<div class="navbar-header">
@@ -35,3 +36,4 @@
 		</div>
 	</div>
 </div>
+</header>
