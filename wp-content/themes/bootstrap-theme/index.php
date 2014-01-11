@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <style type="text/css">
-body {
-	padding-top: 0px !important;
+html {
+	padding-top: none !important;
 }
 .carousel-bottom-padding-remove {
 	margin-bottom: 10px;
