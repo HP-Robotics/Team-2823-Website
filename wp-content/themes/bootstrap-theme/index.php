@@ -15,7 +15,7 @@ html {
 					<div class="carousel-caption">
 						<div class="row">
 							<h1>Welcome to Highland Park Robotics</h1>
-							<p>Highland Park Team 2823 - The Automatons - is a team of Highland students that compete in the FIRST Robotics Competition league each year.  The team meets Tuesday, Thursday, and Saturday, while we prepare for the competition.</p>
+							<p>Highland Park Team 2823 - The Automatons - is a team of Highland students that compete in the FIRST Robotics Competition league each year. The team meets Tuesdays, Thursdays and Saturdays while we prepare for the competition.</p>
 							<p><a class="btn btn-lg btn-default" href="Team.html" role="button">Learn more</a></p>
 						</div>
 					</div>
@@ -43,7 +43,8 @@ html {
 add_filter( 'the_content_more_link', 'remove_more_link_scroll' ); ?>
 					<?php while(have_posts()) : the_post(); ?>
 						<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-						<?php the_content('Continue Reading'); ?>
+						<?php echo get_the_post_thumbnail(get_the_ID();, 'thumbnail', array('class' => 'pull-right img-thumbnail')); ?>
+						<?php the_content('Continue Reading &rarr;'); ?>
 						<p class="text-muted">Posted by <?php the_author(); ?> on <?php the_time('F j, Y g:i a'); ?></p>
 					<?php endwhile; wp_reset_query(); ?>
 				</div>
