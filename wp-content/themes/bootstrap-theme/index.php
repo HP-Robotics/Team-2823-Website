@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <style type="text/css">
-html {
-	padding-top: none !important;
+body {
+	padding-top: 0px !important;
 }
 .carousel-bottom-padding-remove {
 	margin-bottom: 10px;
@@ -43,9 +43,26 @@ html {
 add_filter( 'the_content_more_link', 'remove_more_link_scroll' ); ?>
 					<?php while(have_posts()) : the_post(); ?>
 						<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-						<?php echo get_the_post_thumbnail(get_the_ID();, 'thumbnail', array('class' => 'pull-right img-thumbnail')); ?>
-						<?php the_content('Continue Reading &rarr;'); ?>
-						<p class="text-muted">Posted by <?php the_author(); ?> on <?php the_time('F j, Y g:i a'); ?></p>
+						<?php
+						if(has_post_thumbnail()) {
+							echo '<div class="row"><div class="col-sm-2">';
+							the_post_thumbnail('thumbnail',array('class' => 'img-thumbnail'));
+							echo '</div><div class="col-sm-10">';
+							the_content('Continue Reading &rarr;');
+							echo '<p class="text-muted">Posted by ';
+							the_author();
+							echo ' on ';
+							the_time('F j, Y g:i a');
+							echo '</p></div></div>';
+						} else {
+							the_content('Continue Reading &rarr;');
+							echo '<p class="text-muted">Posted by ';
+							the_author();
+							echo ' on ';
+							the_time('F j, Y g:i a');
+							echo '</p>';
+						}
+						?>
 					<?php endwhile; wp_reset_query(); ?>
 				</div>
 			</div>
