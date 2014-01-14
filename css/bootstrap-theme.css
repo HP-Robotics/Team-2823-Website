@@ -126,21 +126,21 @@
   background-image: -webkit-linear-gradient(top, #d9534f 0%, #c12e2a 100%);
   background-image: linear-gradient(to bottom, #d9534f 0%, #c12e2a 100%);
   background-repeat: repeat-x;
-  border-color: #b92c28;
+  border-color: #bb0000;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd9534f', endColorstr='#ffc12e2a', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
 
 .btn-danger:hover,
 .btn-danger:focus {
-  background-color: #c12e2a;
+  background-color: #aa0000;
   background-position: 0 -15px;
 }
 
 .btn-danger:active,
 .btn-danger.active {
-  background-color: #c12e2a;
-  border-color: #b92c28;
+  background-color: #aa0000;
+  border-color: #bb0000;
 }
 
 .btn-info {
