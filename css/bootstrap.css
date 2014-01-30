@@ -4346,12 +4346,6 @@ textarea.input-group-sm > .input-group-btn > .btn {
   clear: both;
 }
 
-@media (min-width: 768px) {
-  .navbar {
-    border-radius: 4px;
-  }
-}
-
 .navbar-header:before,
 .navbar-header:after {
   display: table;
