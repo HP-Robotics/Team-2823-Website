@@ -20,6 +20,7 @@ ga('create', 'UA-46265245-1', 'highland-2823.com');
 ga('send', 'pageview');
 </script>
 </head>
+<img src="img/header.png" class="img-responsive" alt="Responsive image">
 <body>
 <!--#include virtual="navbar.shtml"-->
 <div class="container">
