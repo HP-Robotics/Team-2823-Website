@@ -22,6 +22,7 @@ ga('send', 'pageview');
 </script>
 <?php wp_head(); ?>
 </head>
-<body <?php body_class(); ?>>
 <img src="../../../img/header.png" class="img-responsive" alt="Responsive image">
+<body <?php body_class(); ?>>
+
 <?php echo file_get_contents('navbar.shtml'); ?>
