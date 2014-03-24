@@ -32,7 +32,10 @@ ga('send', 'pageview');
 <div class="container">
 	<h1>Links</h1>
 	<hr>
-	<p><a href="http://www.thebluealliance.com/teams">The Blue Alliance</a></p>
+	<ul>
+		<li><a href="http://www.thebluealliance.com/teams">The Blue Alliance</a> - great resource for videos of matches.</li>
+		<li><a href="https://www.icloud.com/iw/#numbers/BALMkru9yDTHPDwF9HWBskJPN4Q3ZrtcKxGF/FRC_2014_Scouting">Master scouting spreadsheet</a> - Download to an iPad and use during the regionals!</li>
+	</ul>
 	</div>
 <!--#include virtual="/footer.shtml"-->
 <script>
