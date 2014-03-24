@@ -31,33 +31,21 @@ ga('send', 'pageview');
 </div>
 <div class="container">
 	<div class="row">
-		<div class="col-md-5 pull-left">
+		<div class="col-md-6">
 			<p class="text-center"><img src="https://sites.google.com/site/theautomatons2823/_/rsrc/1374642295152/sponsors/3m-logo.jpg?height=113&width=200" width="199" height="113"></p>
 			<p class="text-center"><a class="btn btn-lg btn-primary" href="http://www.3m.com/" role="button">Learn More</a></p>
 		</div>
-		<div class="col-md-5 pull-right">
+		<div class="col-md-6">
 			<p class="text-center"><img src="https://sites.google.com/site/theautomatons2823/_/rsrc/1374642469788/sponsors/linear-eye-logo.jpg?height=166&width=200" width="166" height="150"></p>
 			<p class="text-center"><a class="btn btn-lg btn-primary" href="http://www.lineareye.com/" role="button">Learn More</a></p>
 		</div>
 	</div>
-	<hr>
-	<div class="row">
-		<div class="col-md-5 pull-left">
-			<p class="text-center"><img src="https://sites.google.com/site/theautomatons2823/_/rsrc/1374642692795/sponsors/89.jpg?height=125&width=200" width="200" height="125"></p>
-			<p class="text-center"><a class="btn btn-lg btn-primary" href="http://www.spps.org/" role="button">Learn More</a></p>
-		</div>
-		<div class="col-md-5 pull-right">
-			<p class="text-center"><img src="https://sites.google.com/site/theautomatons2823/_/rsrc/1374642775584/sponsors/ximedica-logo.jpg?height=71&width=200" width="200" height="71"></p>
-			<p class="text-center"><a class="btn btn-lg btn-primary" href="http://www.ximedica.com/" role="button">Learn More</a></p>
-		</div>
-	</div>
-	<hr>
-	<div class="row">
-		<div class="col-md-12">
+	<!-- <div class="row">
+		<div class="col-md-6">
 			<p class="text-center"><img src="https://sites.google.com/site/theautomatons2823/_/rsrc/1374642870419/sponsors/macklogo.gif?height=82&width=200" width="200" height="82"></p>
 			<p class="text-center"><a class="btn btn-lg btn-primary" href="http://www.mackengineering.com/" role="button">Learn More</a></p>
 		</div>
-	</div>
+	</div> -->
 </div>
 <!--#include virtual="footer.shtml"-->
 <script>
